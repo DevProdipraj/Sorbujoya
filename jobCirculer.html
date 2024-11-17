@@ -1,0 +1,389 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="htmlcss bootstrap menu, navbar, hover, vanilla js, nav menu CSS examples" />
+    <meta name="description" content="Bootstrap 5 navbar hover example with vanilla javascript by bootstrap methods" />
+    <title>Blog</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="./asset/css/style.css">
+
+    <script type="text/javascript">
+
+        window.addEventListener("resize", function () {
+            "use strict"; window.location.reload();
+        });
+
+
+        document.addEventListener("DOMContentLoaded", function () {
+
+            // make it as accordion for smaller screens
+            if (window.innerWidth > 992) {
+
+                document.querySelectorAll('.navbar .nav-item').forEach(function (everyitem) {
+
+                    everyitem.addEventListener('mouseover', function (e) {
+
+                        let el_link = this.querySelector('a[data-bs-toggle]');
+
+                        if (el_link != null) {
+                            let nextEl = el_link.nextElementSibling;
+                            el_link.classList.add('show');
+                            nextEl.classList.add('show');
+                        }
+
+                    });
+                    everyitem.addEventListener('mouseleave', function (e) {
+                        let el_link = this.querySelector('a[data-bs-toggle]');
+
+                        if (el_link != null) {
+                            let nextEl = el_link.nextElementSibling;
+                            el_link.classList.remove('show');
+                            nextEl.classList.remove('show');
+                        }
+
+
+                    })
+                });
+
+            }
+            // end if innerWidth
+        });
+	// DOMContentLoaded  end
+
+    </script>
+
+</head>
+
+<body>
+    <!-- header section html start from here  -->
+    <header>
+        <div class="container-fiuld">
+            <nav class="navbar navbar-expand-lg navbar-dark header">
+             <div class="container-fluid">
+                  <a class="navbar-brand" href="./index.html">
+                    <img class="brand-icon" src="./asset/img/indexPage/shorbojoya-logo.png" alt="image">
+                 </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"  aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              <div class="collapse navbar-collapse" id="main_nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active"> <a class="nav-link" href="./aboutUs.html">About Us </a> </li>
+                    <li class="nav-item"><a class="nav-link" href="./ourTeam.html">Our Team</a></li>
+    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Our Solutions</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="./forFarmers.html"> For Farmers</a></li>
+                          <li><a class="dropdown-item" href="./forFunders.html"> For Funders  </a></li>
+                          <li><a class="dropdown-item" href="./agriInput.html"> Agri-input  </a></li>
+                          <li><a class="dropdown-item" href="./iot&PrecisionFarming.html"> Iot & Precision Farming </a></li>
+                          <li><a class="dropdown-item" href="./supplyChain.html"> Supply Chain  </a></li>
+                        </ul>
+                    </li>
+    
+                    <li class="nav-item"><a class="nav-link" href="./sofol.html"> Sofol </a></li>
+                    <li class="nav-item"><a class="nav-link" href="./impact.html"> Impact </a></li>
+                    <li class="nav-item"><a class="nav-link" href="./blog.html"> Blog </a></li>
+                    <li class="nav-item"><a class="nav-link" href="./career.html"> Career </a></li> 
+                    <li class="nav-item"><a class="nav-link" href="./contact.html"> Contact </a></li> 
+                </ul>
+                <div class="languageChangeBtn">
+                    <input class="englishBtn" type="submit" value="En">
+                    <input class="banglaBtn" type="submit" value="Bn">
+                </div>
+              </div> 
+             </div> 
+            </nav>
+    
+            </div> 
+    </header>
+    <!-- header section html start from here  -->
+
+    <!-- main section HTML start from here  -->
+    <main>
+        
+        <!-- job page header html start from here  -->
+        <!-- ======================================== -->
+        <div class="job-Page-header">
+            <div class="container">
+                <section class="jobPageHeader">
+                    <div class="jobPageHeader-top">
+                        <div class="jobPageHeader-top-left">
+                            <div class="jobPageHeader-top-left-box1">
+                                <h1>Intern - Data Analyst
+                                </h1>
+                            </div>
+                            <div class="jobPageHeader-top-left-box2">
+                                <h4>Fulltime</h4>
+                            </div>
+                        </div>
+                        <div class="jobPageHeader-top-right">
+                            <a href="./jobApplication.html">
+                                <input  class="applyNowBtn" type="button" value="Apply Now">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="jobPageHeader-bottom">
+                        <div class="job-details-breadcrumb">
+                            <a href="./index.html">home</a>
+                            <i class="fa fa-arrow-right"></i>
+                            <a href="./career.html">Career</a>
+                            <i class="fa fa-arrow-right"></i>
+                           <span class="postName"> Intern Data Analyst</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="job-page-body">
+            <div class="container">
+                <div class="job-page-para">
+                    <p>
+                        Shorbojoya is an award-winning agri-fintech business focusing on innovative financial services for smallholder farmers. iFarmer uses agriculture expertise, agronomic machine learning, remote sensing, and mobile phones to deliver financing, high-quality agriculture inputs, optimized farm advises and creates access to markets that can improve profitability for millions of farmers. 
+                    </p>
+                    <p>
+                        We are on a mission to “Democratize Agriculture financing and Supply chain”.
+                    </p>
+                    <p>
+                        Shorbojoya works closely with multiple stakeholders across the agriculture value chain. We are supported by organizations such as UNCDF, UNESCAP, Asia Accelerator, Falcon Ventures, Startup Bangladesh, UNDP Youth CoLab, Acumen, and more.
+                    </p>
+                </div>
+                <div class="job-point">
+                    <h2>Department</h2>
+                </div>
+                <div class="job-point-content">
+                    <h4>Data</h4>
+                </div> 
+                <div class="job-point">
+                    <h2>Description</h2>
+                </div>
+                <div class="job-page-para">
+                    <p>
+                        As an Intern Data Scientist, you will closely work with the Senior Data Scientists to perform insightful analyses and build algorithms that will help drive our business forward! Activities will include working in Jupyter Notebook (using Python, Google Earth Engine, PostgreSQL, MongoDB, etc.) to build data pipelines, create reports/analyses, and build algorithms/models to achieve business objectives. In addition, you will be required to perform tasks related to collecting and aggregating farming data from various sources.
+                    </p>
+                </div>
+                <div class="job-point">
+                    <h2>Role</h2>
+                </div>
+                <div class="job-page-para">
+                    <p>
+                        You are a flexible team player who is eager to learn to analyze large datasets with proper tools. You have knowledge and experience collecting, cleaning, organizing, and visualizing data sets to find insights. You love thinking about data and solving problems that include identifying trends, patterns, and performing predictive analysis. You’re able to support technical projects with guidance from senior team members to unlock the value of data. Importantly, you are passionate about farming and care deeply about improving thousands of farmer's life using data and modern technologies.
+                    </p>
+                </div>
+                <div class="job-point">
+                    <h2>Requirements</h2>
+                </div>
+                <div class="job-point-content">
+                    <ul>
+                        <li>A good human being</li>
+                        <li>Passionate about agri-tech</li>
+                        <li>Bachelor’s degree in computer science, statistics, mathematics, or related field or equivalent related experience (flexible)</li>
+                        <li>Proficiency in programming, statistics, data analysis, and machine learning</li>
+                        <li>Having strong problem-solving and analytical skills, good intuition with numbers, connecting the dots, synthesizing disparate information sources, and finding patterns</li>
+                        <li>A true team player – flexible about your role and ready to do what it takes to get things done</li>
+                        <li>Insatiable curiosity and lifelong learner</li>
+                        <li>Having strong moral and ethical principles</li>
+                    </ul>
+                </div>
+                <div class="job-point">
+                    <h2>Vacancy</h2>
+                </div>
+                <div class="job-point-content">
+                    <h4>1</h4>
+                </div> 
+                <div class="job-point">
+                    <h2>Salary Range</h2>
+                </div>
+                <div class="job-point-content">
+                    <h4>BDT 8000</h4>
+                </div> 
+                <div class="job-point">
+                    <h2>Location</h2>
+                </div>
+                <div class="job-point-content">
+                    <h4>Head Office</h4>
+                </div> 
+                <div class="job-point">
+                    <h2>Application Deadline</h2>
+                </div>
+                <div class="job-point-content">
+                    <h4>Feb 20, 2023</h4>
+                </div> 
+                <div class="job-point">
+                    <h2>Apply Procedure</h2>
+                </div>
+                <div class="job-page-para">
+                    <p>
+                        If you think you are fit for this role, you are requested to send your updated CV to career@ifarmer.asia by mentioning Application for Data Analyst - Intern" in the subject line by 20 February, 2023. 
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- job page header html end from here  -->
+        <!-- ======================================== -->
+
+         <!-- other job section html start from here  -->
+         <!-- ============================================= -->
+            <div class="otherJobSectionWrapper section-header">
+                <div class="container">
+                    <div class="otherJobSection">
+                        <div class="job-cards">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                    <div class="job-card">
+                                            <div class="card-header">
+                                                <img class="img-fluid" src="./asset/img/career/shorbojoya-bangla-logo.png" alt="image">
+                                            </div>
+                                            <div class="card-body">
+                                                <h2>Senior Executive, Financial Planning & Analysis</h2>
+                                                <h4>FULLTIME</h4>
+                                                <a href="./jobCirculer.html">
+                                                    <input class="jobViewBtn" type="button" value="View Post">
+                                                </a>
+                                            </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                    <div class="job-card">
+                                        <div class="card-header">
+                                            <img class="img-fluid" src="./asset/img/career/shorbojoya-bangla-logo.png" alt="image">
+                                        </div>
+                                        <div class="card-body">
+                                            <h2>Intern – Financial Services</h2>
+                                            <h4>FULLTIME</h4>
+                                            <a href="./jobCirculer.html">
+                                                <input class="jobViewBtn" type="button" value="View Post">
+                                            </a>
+                                        </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         <!-- other job section html end from here  -->
+         <!-- ============================================= -->
+
+
+          <!-- footer bannaer section html start from here  -->
+          <div class="footer-banner-wrapper">
+            <div class="footer-banner">
+                <div class="container">
+                    <div class="footer-banner-content">
+                        <img class="img-fluid footerImgleft" src="./asset/img/indexPage/footer-top/left-brn.png" alt="image">
+                        <img class="img-fluid footerImgcenter" src="./asset/img/indexPage/footer-top/shorbojoya-bangla-logo.png" alt="image">
+                        <img class="img-fluid footerImgRight" src="./asset/img/indexPage/footer-top/right-bnr.png" alt="image">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer bannar section html end from here  -->
+    </main>
+    <!-- main section HTML end from here  -->
+
+
+
+    <!-- footer section html start from here  -->
+    <footer>
+     
+        <div class="footer-wrapper">
+         <div class="footer">
+             <div class="container"> 
+                 <div class="main-footer">
+                     <div class="row">
+                         <div class="col-lg-1 col-md-6"><div class="footerTopBox1">
+                           <h4>About</h4>
+                             <ul>
+    
+                                 <li> <a href="./aboutUs.html">
+                                     About Us
+                                 </a></li>
+                                 <li> <a href="./career.html">
+                                     Career
+                                 </a></li>
+                                 <li> <a href="./gallery.html">
+                                     Gallery
+                                 </a></li>
+                                 <li> <a href="./faq.html">
+                                     FAQ
+                                 </a></li>
+                             </ul>
+                         </div></div>
+                         <div class="col-lg-2 col-md-6"><div class="footerTopBox2">
+                             <h4>Legal</h4>
+                             <ul>
+                                 <li><a href="./privacyPolicy.html">Privacy Policy</a></li>
+                                 <li><a href="./termsAndCondetion.html">Terms of Services</a></li>
+                                 <li><a href="./riskManagement.html">Risk Management</a></li>
+                             </ul>
+                         </div></div>
+                         <div class="col-lg-4 col-md-6"><div class="footerTopBox3">
+                             <h4>Contact</h4>
+                             <ul>
+                                 <li> <b>Email:</b> info@ifarmer.asia</li>
+                                 <li> <b>For Call:</b> +8801302536026</li>
+                                 <li> <b>For Whatsapp:</b> +8801784167973</li>
+                                 <li><b>Bangladesh Address:</b> House - 266, Road - 19, Mohakhali DOSH, Dhaka 1206</li>
+                                 <li>
+                                     <b>Zonal Office</b>
+                                     Watermark Group, Bank Building
+                                     Dhaperhat Bondor, Sadullahpur
+                                     Gaibandha-5710
+                                 </li>
+                             </ul>
+                             <div class="footer-socila-icons">
+                                 <a href="#"> <i class="fa-brands fa-twitter"></i></a>
+                                 <a href="#"> <i class="fa-brands fa-facebook"></i></a>
+                                 <a href="#"> <i class="fa-brands fa-whatsapp"></i></a>
+                                 <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                             </div>
+                         </div></div>
+                         <div class="col-lg-2 col-md-6"><div class="footerTopBox4">
+                             <h4>Our App</h4>
+                             <img  class="img-fluid playStore" src="./asset/img/indexPage/footerImg/playStore.png" alt="image">
+                             <img  class="img-fluid appStore" src="./asset/img/indexPage/footerImg/app-store.png" alt="image">
+                         </div></div>
+                         <div class="col-lg-3 col-md-6"><div class="footerTopBox6">
+                            <h4>
+                             Company Information
+                            </h4>
+                            <h6>
+                             Trade License Number:
+                            </h6>
+                            <p> 273687</p>
+                            <h6>
+                             BIN Number: <br> 
+                            </h6>
+                            <p>
+                             0017302330402
+                            </p>
+                     </div>
+                 </div>
+             </div>
+         </div>
+        
+     </div>
+     <div class="footer-bottom">
+         <p>Copyright © 2019-2023 <a href="http://www.watermarkbd.com/"> Watermark</a>, All Rights Reserved.</p>
+     </div>
+     </footer>
+    <!-- footer section html end from here  -->
+</body>
+
+</html>

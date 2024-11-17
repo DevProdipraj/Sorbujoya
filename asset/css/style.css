@@ -1,0 +1,5129 @@
+/* RESET CSS START  */
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin-bottom: 0 !important;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    margin-bottom: 0rem !important;
+}
+
+.border-none {
+    border: none !important;
+}
+
+.section-header {
+    padding: 3rem 0rem;
+    text-align: center;
+}
+
+body {
+ 
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+ 
+}
+
+/* adding font font  */
+@font-face {
+    font-family: "Arial";
+    src: url(../fonts/ARIBL0.ttf);
+}
+
+@font-face {
+    font-family: "Helvetica";
+    src: url(../fonts/Helvetica.ttf);
+}
+
+@font-face {
+    font-family: "Labster";
+    src: url(../fonts/Lobster-Regular.ttf);
+}
+
+/* COMMON css start  */
+
+
+.border-right {
+    border-right: 1.5px solid #fff;
+}
+
+.container-fiuld {
+    max-width: 1800px !important;
+    margin: 0 auto;
+    padding: 0rem 2rem !important;
+}
+
+#colorText {
+    color: #027696;
+}
+
+/* COMMON css end */
+
+/* header section  CSS start from here  */
+/* ========================================= */
+header {
+    background: #156177 !important;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99999999999;
+}
+
+.brand-icon {
+    width: 80px;
+    height: 80px;
+    background: #fff;
+    border-radius: 50%;
+    padding: 8px 6px;
+}
+
+#main_nav {
+    justify-content: space-around;
+    margin-left: 0rem;
+}
+
+.englishBtn,
+.banglaBtn {
+    padding: 0px 5px;
+}
+
+
+
+/* hero section css start  */
+/* ============================ */
+.bannar-img img {
+    width: 100%;
+    height: 100vh;
+}
+
+.hero-section-title {
+    position: absolute;
+    top: 35vh;
+    /* left: 50%; */
+    /* transform: translate(-50%); */
+    text-align: center;
+    width: 100%;
+    padding: 0% 10%;
+}
+
+.hero-section-title h1 {
+    font-size: 40px;
+    color: #FFFFFF;
+    /* font-family: 'Labster', sans-serif; */
+}
+
+.hero-section-body {
+    position: absolute;
+    top: 65vh;
+    left: 50%;
+    text-align: center;
+    transform: translate(-51%);
+}
+
+.hero-section-cards {
+    width: 60rem;
+    /* padding: 16px; */
+}
+
+.hero-section-card {
+    background: #00000087;
+    padding: 25px 0px;
+}
+
+.hero-section-card img {
+    width: 50px;
+    height: 50px;
+}
+
+.hero-section-card h2 {
+    color: #fff;
+    font-size: 26px;
+    margin-top: 7px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero-section-card h4 {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #ebddddeb;
+}
+
+.who-we-are-header h1 {
+    font-weight: bold;
+    font-size: 40px;
+    /* border-bottom: 3px solid #156177; */
+    /* width: 13%; */
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    position: relative;
+    font-family: Labster;
+}
+
+
+
+.who-we-are-header p {
+    width: 33rem;
+    margin: 0 auto;
+    color: #707070;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    line-height: 1.6;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.who-we-are-header p:hover {
+    text-decoration: underline;
+}
+
+.who-we-are-body-card {
+    text-align: center;
+    box-shadow: 1px 1px 10px #0000007a;
+    padding: 35px 10px 10px 10px;
+    height: 17rem;
+    border-radius: 15px;
+    transition: all 0.3s linear;
+}
+
+.who-we-are-body-card:hover {
+    transform: scale(1.1);
+}
+
+.who-we-are-body-card img {
+    width: 60px;
+    height: 60px;
+}
+
+.who-we-are-body-card h4 {
+    font-size: 22px;
+    margin-top: 10px;
+    color: #156177;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.who-we-are-body-card p {
+    font-size: 15px;
+    color: #2a2a2ab5;
+    line-height: 1.6;
+}
+
+.farmers-section-wrapper {
+    margin-top: 10rem;
+}
+
+.farers-right {
+    text-align: right;
+}
+
+.farers-left img {
+    border-radius: 15px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.5s linear;
+}
+
+.farers-left img:hover {
+    transform: scale(1.1);
+}
+
+.farers-right h1 {
+    font-family: "Labster", sans-serif;
+    font-size: 58px;
+    letter-spacing: 0.05px;
+    font-weight: normal;
+}
+
+.farers-right p {
+    color: #707070;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    line-height: 1.6;
+    transition: all 0.3s linear;
+    margin-bottom: 1rem !important;
+}
+
+.farers-right p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.inproving-right h1 {
+    font-family: "Labster";
+    font-size: 58px;
+}
+
+.learnMorBtn {
+    width: 288px;
+    height: 61px;
+    border-radius: 6px;
+    box-shadow: 0 3px 6px #00000029;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 21px;
+    padding-top: 20px;
+    background-color: #156177;
+    box-shadow: 0 3px 6px #00000029;
+    border: 1px solid #156177;
+    color: #FFFFFF;
+    font-size: 17px;
+    padding: 8px;
+    transition: all 0.3s linear;
+}
+
+.learnMorBtn:hover {
+    background-color: #0ba8d3;
+}
+
+.learnMorBtn:focus {
+    border: 3px solid #2bbe65;
+}
+
+.quality-input {
+    margin-top: 7rem;
+}
+
+.quality-input-left h1 {
+    font-family: "Labster", sans-serif;
+    font-size: 58px;
+    letter-spacing: 0.05px;
+    font-weight: normal;
+}
+
+.quality-input-left p {
+    color: #707070;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    line-height: 1.6;
+    transition: all 0.3s linear;
+    margin-bottom: 1rem !important;
+}
+
+.quality-input-left p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.quality-input-right img {
+    border-radius: 15px;
+    transition: all 0.5s linear;
+    cursor: pointer;
+}
+
+.quality-input-right img:hover {
+    transform: scale(1.1);
+}
+
+.improving-section-wrapper {
+    margin-top: 5rem;
+}
+
+.inproving-left {
+    position: relative;
+}
+
+.inprovingTopImg1 {
+    z-index: 9999;
+    position: absolute;
+    top: 21%;
+    width: 320px;
+    left: 20%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.inprovingTopImg2 {
+    width: 280px;
+    border-radius: 10px;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.inproving-right p {
+    transition: all 0.3s linear;
+    cursor: pointer;
+    margin-bottom: 1rem !important;
+}
+
+.inproving-right p:hover {
+    text-decoration: underline;
+}
+
+.inprovingTopImg3 {
+    width: 320px;
+    margin-left: 4%;
+    border-radius: 10px;
+    margin-top: 4rem;
+    cursor: pointer;
+    position: absolute;
+    top: 57%;
+    left: 1%;
+}
+
+.about-us-header h2 {
+    font-family: "Labster", sans-serif;
+    font-size: 40px;
+    line-height: 56px;
+    letter-spacing: 0.64px;
+    font-weight: bold !important;
+    color: #2A2A2A;
+    /* border-bottom: 3px solid #156177; */
+    /* width: 25%; */
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.about-us-wrapper {
+    margin-top: 10rem;
+}
+
+.carUsel-container {
+    text-align: center;
+}
+
+.comma-icon {
+    width: 40px;
+}
+
+.sliderPersonImg {
+    overflow: hidden;
+
+}
+
+.sliderPersonImg img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin: 5px 0px;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.sliderPersonImg img:hover {
+    transform: scale(1.1);
+}
+
+.slider-persion-info p {
+    font-size: 16px;
+    width: 63%;
+    margin: o auto;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.slider-persion-info p:hover {
+    text-decoration: underline;
+}
+
+.slider-persion-info h2 {
+    font-size: 18px;
+    color: #2A2A2A;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.awardsSection {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.awardsSection h2 {
+    font-family: "Labster", sans-serif;
+    font-size: 35px;
+    line-height: 56px;
+    letter-spacing: 0.64px;
+    font-weight: bold !important;
+    color: #2A2A2A;
+    /* border-bottom: 3px solid #156177; */
+    /* width: 19%; */
+    margin: 0 auto;
+    /* margin-bottom: 0; */
+    position: relative;
+}
+
+
+.awards-section-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.awards-section-body a img {
+    width: 190px;
+    margin: 0px 11px;
+    transition: all 0.3s linear;
+}
+
+.awards-section-body a img:hover {
+    transform: scale(1.1);
+}
+
+.ourPartner-header h2 {
+    font-family: "Labster", sans-serif;
+    font-size: 40px;
+    line-height: 56px;
+    letter-spacing: 0.64px;
+    font-weight: bold !important;
+    color: #2A2A2A;
+    /* border-bottom: 3px solid #156177; */
+    /* width: 15%; */
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.ourPartnerBody a img {
+    width: 180px;
+    margin: 5px 16px;
+    transition: all 0.3s linear;
+}
+
+.ourPartnerBody a img:hover {
+    transform: scale(1.1);
+}
+
+.featured-header h2 {
+    font-family: "Helvetica", sans-serif;
+    font-size: 32px;
+    line-height: 56px;
+    letter-spacing: 0.64px;
+    font-weight: bold !important;
+    color: #2A2A2A;
+    border-bottom: 3px solid #156177;
+    width: 18%;
+    margin: 0 auto;
+}
+
+.featured-body img {
+    width: 150px;
+    margin: 0px 15px;
+}
+
+.ourPartner-header {
+    margin: 8rem 0rem 0rem 0rem;
+}
+
+.freatured-header {
+    margin-top: 9rem;
+}
+
+.freatured-header h2 {
+    /* border-bottom: 3px solid #156177; */
+    /* width: 14%; */
+    margin: 0 auto;
+    position: relative;
+    font-size: 37px;
+    font-family: 'Labster';
+}
+
+
+.featured-body img {
+    transition: all 0.3s linear;
+}
+
+.featured-body a img:hover {
+    transform: scale(1.1);
+}
+
+.homeJoinUsBody {
+    background: #156177;
+    border-radius: 15px;
+    padding: 3rem;
+}
+
+.homeJoinUsSectionWrapper {
+    margin: 7rem 0rem;
+}
+
+.homeJoinUsleft h2 {
+    color: #54CBF5;
+}
+
+.homeJoinUsleft p {
+    color: #54CBF5;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.homeJoinUsleft p:hover {
+    text-decoration: underline;
+}
+
+.homeJoinUsright {
+    text-align: right;
+}
+
+.HjoinUsBtn {
+    padding: 12px 45px;
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-top: 26px;
+    word-spacing: -1px;
+    transition: all 0.3s linear;
+}
+
+.HjoinUsBtn:focus {
+    border: 3px solid #2bbe65;
+}
+
+.homeContactFormHeader {
+    text-align: center;
+}
+
+.homeContactFormHeader h2 {
+    margin-top: 10rem;
+    font-family: "Labster", sans-serif;
+    font-size: 40px;
+    line-height: 56px;
+    letter-spacing: 0.64px;
+    font-weight: bold !important;
+    color: #2A2A2A;
+    margin-bottom: 0rem;
+    position: relative;
+}
+
+
+
+.homeContactFormHeader p {
+    width: 33%;
+    margin: 0 auto;
+    color: #161616;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.homeContactFormHeader p:hover {
+    text-decoration: underline;
+}
+
+.homeContactform {
+    width: 100%;
+}
+
+#userEmail,
+#userNumber,
+#userMassage,
+.homeFormSubBtn {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #00000045;
+    margin-top: 15px;
+    padding: 5px 0px;
+    color: #000;
+    font-family: "Helvetica", sans-serif;
+    font-size: 16px;
+    background: transparent;
+}
+
+.homeContactFromBody {
+    margin-top: 2rem;
+    padding: 0 13%;
+}
+
+.homeFormSubBtn {
+    border: none;
+    background-color: #156177;
+    color: #fff;
+    margin: 1.5rem 0rem;
+    padding: 12px 0px;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: all 0.3s linear;
+    margin-bottom: 4rem;
+}
+
+.homeFormSubBtn:hover {
+    background-color: #027696;
+}
+
+.homeFormSubBtn:focus {
+    border: 2.5px solid #2bbe65;
+}
+
+.footer-wrapper {
+    background-color: #156177;
+}
+
+.footer-banner-content {
+    display: flex;
+    align-items: baseline;
+    justify-content: unset;
+    justify-content: space-between;
+}
+
+.footerImgleft {
+    width: 35% !important;
+}
+
+.footerImgcenter {
+    width: 30%;
+}
+
+.footerImgRight {
+    width: 18%;
+}
+
+.main-footer {
+    padding: 2rem 0rem;
+}
+
+.footerTopBox1 h4,
+.footerTopBox2 h4,
+.footerTopBox3 h4,
+.footerTopBox4 h4,
+.footerTopBox5 h4,
+.footerTopBox6 h4 {
+    color: #54CBF5;
+    font-size: 22px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.footer-socila-icons {
+    margin-top: 1.5rem;
+}
+.footerTopBox1 h4::before {
+    content: "";
+    height: 2px;
+    width: 62px;
+    color: #54CBF5;
+    background-color: #54CBF5;
+    position: absolute;
+    top: 27px;
+    left: -4px;
+}
+
+
+.footerTopBox2 h4::before {
+    content: "";
+    height: 2px;
+    width: 54px;
+    color: #54CBF5;
+    background-color: #54CBF5;
+    position: absolute;
+    top: 27px;
+    left: -1px;
+}
+
+.footerTopBox3 h4::before {
+    content: "";
+    height: 2px;
+    width: 75px;
+    color: #54CBF5;
+    background-color: #54CBF5;
+    position: absolute;
+    top: 27px;
+    left: 1px;
+}
+
+.footerTopBox4 h4::before {
+    content: "";
+    height: 2px;
+    width: 82px;
+    color: #54CBF5;
+    background-color: #54CBF5;
+    position: absolute;
+    top: 27px;
+    left: -1px;
+}
+
+.footerTopBox5 h4::before {
+    content: "";
+    height: 2px;
+    width: 117px;
+    color: #54CBF5;
+    background-color: #54CBF5;
+    position: absolute;
+    top: 25px;
+    left: 0px;
+}
+
+.footerTopBox6 h4::before {
+    content: "";
+    height: 2px;
+    width: 213px;
+    color: #54CBF5;
+    background-color: #54CBF5;
+    position: absolute;
+    top: 27px;
+    left: 0px;
+}
+
+.footerTopBox1 ul li {
+    margin: 10px 0px;
+}
+
+.footerTopBox1 ul li a {
+    color: #54CBF5;
+    font-family: "Helvetica", sans-serif;
+    transition: all 0.3s linear;
+}
+
+.footerTopBox1 ul li a:hover {
+    border-bottom: 2px solid #54CBF5;
+}
+
+
+
+.footerTopBox2 ul li {
+    margin: 10px 0px;
+}
+
+.footerTopBox2 ul li a {
+    color: #54CBF5;
+    font-family: "Helvetica", sans-serif;
+    transition: all 0.3s linear;
+}
+
+.footerTopBox2 ul li a:hover {
+    border-bottom: 2px solid #54CBF5;
+}
+
+.footerTopBox3 ul li {
+    margin: 10px;
+    margin-left: 0;
+    color: #54CBF5;
+    font-family: "Helvetica", sans-serif;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.footerTopBox3 ul li:hover {
+    text-decoration: underline;
+}
+
+.playStore {
+    border-radius: 5px;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.appStore {
+    border-radius: 5px;
+    margin-top: 10%;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.playStore:hover {
+    transform: scale(1.1);
+}
+
+.appStore:hover {
+    transform: scale(1.1);
+}
+
+.footerTopBox6 p {
+    color: #54CBF5;
+    font-family: "Helvetica", sans-serif;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.footerTopBox6 p:hover {
+    text-decoration: underline;
+}
+
+.footer-socila-icons a i {
+    font-size: 24px;
+    color: #54CBF5;
+    cursor: pointer;
+    margin: 0px 15px;
+    font-size: 30px;
+    transition: all 0.3s linear;
+}
+
+.footer-socila-icons a i:hover {
+    transform: scale(1.2);
+}
+
+.footer-bottom {
+    border-top: 1px solid #00000059;
+    padding: 1rem 0rem 2rem 0rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.footer-bottom p {
+    color: #54CBF5;
+    font-family: "Helvetica", sans-serif;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.footer-bottom p a {
+    color: #54CBF5;
+    font-family: "Helvetica", sans-serif;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.footerTopBox6 h6 {
+    color: #54CBF5;
+    font-family: "Helvetica", sans-serif;
+    cursor: pointer;
+    width: 64%;
+    font-size: 16px;
+    margin-top: 1rem;
+    /* border-bottom: 2px solid #54CBF5; */
+}
+
+
+/* responsive css for index page  */
+/* ===================================== */
+@media (max-width:1200px) {
+    .who-we-are-header h1 {
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+
+    .who-we-are-header p {
+        width: 100%;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .who-we-are-body-card h4 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .who-we-are-body-card p {
+        font-size: 14px;
+    }
+
+    .who-we-are-body-card {
+        padding: 30px 10px 0px 10px;
+    }
+
+    .farers-right h1 {
+        font-size: 35px;
+    }
+
+    .farers-right p {
+        font-size: 16px;
+    }
+
+    .quality-input-left h1 {
+        font-size: 35px;
+    }
+
+    .quality-input-left p {
+        font-size: 16px;
+    }
+
+    .hero-section-title h1 {
+        font-size: 35px;
+    }
+
+}
+
+@media(max-width:991px) {
+    .hero-section-cards {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+
+    .menu {
+        flex-direction: column;
+        position: absolute;
+        right: 0;
+        top: 5.85rem;
+        background: #027696;
+        width: 40%;
+        height: 100vh;
+        z-index: 99999999;
+        /* transform:scaleY(0); */
+        align-items: flex-start;
+        padding-top: 15px;
+        padding-left: 20px;
+    }
+
+    .menu li {
+        margin: 10px 0px;
+
+    }
+
+    .bars {
+        background-color: red;
+        content: '';
+        height: 10px;
+        width: 20px;
+        position: absolute;
+        right: 0;
+    }
+
+
+}
+
+.bars {
+    display: none;
+}
+
+
+
+
+/* about page css start from here  */
+/* =================================== */
+.aboutPageBananrImg img {
+    height: 80vh;
+}
+
+.aboutPageHeroSection {
+    top: 32vh;
+    width: 78%;
+    z-index: 99999 !important;
+}
+
+.aboutPageHeroSection p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+    width: 100%;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.verlay {
+    content: '';
+    height: 80vh;
+    width: 100%;
+    background-color: #0000007a;
+    z-index: 9;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.cultureHeader h1 {
+    font-family: Labster, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+    text-transform: capitalize;
+}
+
+
+.caltureBox {
+    text-align: center;
+    box-shadow: 1px 1px 10px;
+    border-radius: 7px;
+    padding: 40px 10px 20px 10px;
+    min-height: 350px;
+    margin-bottom: 35px;
+    cursor: pointer;
+    transition: all 0.5s linear;
+}
+
+.caltureBox img {
+    width: 60px;
+}
+
+.caltureBox h2 {
+    font-size: 28px;
+    margin: 10px 0px;
+    text-transform: capitalize;
+    font-size: 'Labster';
+    font-family: 'labster';
+}
+
+.caltureBox p {
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+}
+
+.caltureBox:hover {
+    transform: scale(1.1);
+}
+
+.caltureBox:hover .caltureBox p {
+    text-decoration: underline;
+}
+
+.ourInvestors-header {
+    text-align: center;
+}
+
+.ourInvestors-header h1 {
+    font-size: 40px !important;
+    font-family: Labster, sans-serif;
+    position: relative;
+    text-transform: capitalize;
+}
+
+
+
+.ourInvestors-body {
+    margin-bottom: 4rem;
+}
+
+.aPinvestorImg {
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.aPinvestorImg:hover {
+    transform: scale(1.1);
+}
+
+.APJoinUsBody {
+    text-align: center;
+}
+
+.APJoinUsHeader p {
+    font-size: 20px;
+    width: 48%;
+    margin: 0 auto;
+    font-family: Helvetica, sans-serif;
+    margin-top: 15px;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.APJoinUsHeader p:hover {
+    text-decoration: underline;
+}
+
+.APJoinUsHeader h1 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: labster, sans-serif;
+    position: relative;
+}
+
+
+
+.apjoinUsBtn {
+    border: none;
+    outline: none;
+    padding: 15px 50px;
+    font-size: 20px;
+    border-radius: 6px;
+    margin-top: 2rem;
+    background: #027696;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s linear;
+}
+
+.apjoinUsBtn:hover {
+    background: #0ea5cf;
+}
+
+
+.tream-wrapper {
+    margin-top: 20vh;
+}
+
+.tream-header {
+    text-align: center;
+}
+
+.tream-header h1 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Labster', sans-serif;
+    text-transform: capitalize;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.tream-tabs {
+    margin-top: 1rem;
+}
+
+.nav-link {
+    background: #156177 !important;
+    color: #fff !important;
+    margin: 4px;
+}
+
+.farmerPageBanar img {
+    height: 80vh;
+}
+
+
+
+/* tream page css start  */
+/* ======================== */
+.tream-body {
+    text-align: center;
+}
+
+.treamMembersInfo a input[type=button] {
+    padding: 8px 20px;
+    margin: 2.5px 0px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background: #027696;
+    color: #000;
+    font-family: Helvetica, sans-serif;
+    text-transform: capitalize;
+    transition: all 0.3s linear;
+}
+
+.treamMembersInfo a input[type=button]:hover {
+    background-color: #0ea5cf;
+}
+
+.treamMembersInfo a input[type=button]:focus {
+    border: 2px solid #2bbe65;
+}
+
+.btnActive {
+    background: #0bcaff !important;
+}
+
+.treamMemberInfo {
+    text-align: center;
+}
+
+.executiveBody {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.treamMemberImg {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.treamMemberImg img {
+    transition: all 0.5s linear;
+}
+
+.treamMemberImg img:hover {
+    transform: scale(1.1);
+}
+
+.treamMemberInfo h2 {
+    font-size: 25px;
+    margin-top: 10px;
+    font-family: Helvetica, sans-serif;
+}
+
+.treamMemberInfo h4 {
+    font-size: 18px;
+    font-family: Helvetica, sans-serif;
+}
+
+.treamMember-social-icons a i {
+    font-size: 22px;
+    background-color: #027696;
+    color: #fff;
+    padding: 5px;
+    border-radius: 8px;
+    transition: all 0.3s linear;
+}
+
+.treamMember-social-icons a i:hover {
+    transform: scale(1.1);
+}
+
+.treamMemberInfo {
+    margin-bottom: 20px;
+}
+
+/* tream page css end  */
+/* =========================== */
+
+/* farmer page  css start from here  */
+/* ===================================== */
+.farmerPageBanner img {
+    height: 75vh;
+    padding-top: 1.5rem;
+}
+
+.farmer-page-banner-cntent {
+    position: absolute;
+    top: 35vh;
+}
+
+.farmer-page-banner-cntent h1 {
+    font-size: 40px;
+    color: #fff;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.farmer-page-banner-cntent p {
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fundFarmersBtn {
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 20px;
+    margin-top: 1.5rem;
+    border: none;
+    outline: none;
+    color: #027696;
+    transition: all 0.3s linear;
+}
+
+.fundFarmersBtn:hover {
+    background-color: #027696;
+    color: #fff;
+}
+
+.whatWeOfferCards {
+    margin-top: 2rem;
+}
+
+.whatWeOfferHeader {
+    text-align: center;
+}
+
+.whatWeOfferHeader h1 {
+    font-size: 40px;
+    font-family: labster, sans-serif;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+
+.whatWeOfferHeader p {
+    margin-top: 2rem;
+    font-size: 16px;
+    width: 69%;
+    margin: 0 auto;
+}
+
+.whatWeOfferCard {
+    text-align: center;
+    /* border: 2.5px dotted #000; */
+    padding: 2.5rem 1rem 2rem 1rem;
+    border-radius: 5px;
+    min-height: 350px;
+    box-shadow: 1px 1px 10px #a39d9d;
+    margin-bottom: 1.5rem !important;
+    cursor: pointer;
+    margin: 0;
+    transition: all 0.3s linear;
+}
+
+.whatWeOfferCard img {
+    width: 45px;
+}
+
+.whatWeOfferCard h2 {
+    font-size: 23px;
+    margin-top: 15px;
+    font-family: labster, sans-serif;
+    font-weight: bold;
+}
+
+.whatWeOfferCard p {
+    font-size: 16px;
+    margin-top: 15px;
+    font-family: Helvetica, sans-serif;
+}
+
+.whatWeOfferCard:hover {
+    transform: scale(1.1);
+}
+
+.farmers-stat-wrapper {
+    margin: 3rem 0rem;
+}
+
+.stat-diagrams-wrapper {
+    position: relative;
+    padding-bottom: 30rem;
+}
+
+.diagram-cell1 {
+    border: 4px solid #027696;
+    width: 240px;
+    height: 240px;
+    text-align: center;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.diagram-cell1:hover {
+    margin-bottom: 10px;
+    margin-right: 10px;
+    transform: scale(1.1);
+}
+
+.diagram-number h2 {
+    margin-top: 28%;
+}
+
+.diagram-number h2 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #027696;
+    font-family: Helvetica, sans-serif;
+}
+
+.diagram-text p {
+    font-size: 19px;
+    font-weight: bold;
+    color: #027696;
+    font-family: Helvetica, sans-serif;
+}
+
+.diagram-cell2 {
+    position: absolute;
+    top: 0px;
+    right: 3%;
+    border: 4px solid #027696;
+    width: 240px;
+    height: 240px;
+    text-align: center;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.diagram-cell2:hover {
+    transform: scale(1.2);
+}
+
+.diagram-cell3 {
+    position: absolute;
+    top: 46%;
+    left: 25%;
+    border: 4px solid #027696;
+    width: 240px;
+    height: 240px;
+    text-align: center;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.diagram-cell3:hover {
+    transform: scale(1.1);
+}
+
+.text-color {
+    color: #027696;
+    font-weight: bold;
+}
+
+.stat-text-wrapper p {
+    font-size: 18px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 30px;
+
+}
+
+.stat-text-wrapper p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.stat-text-wrapper .para2 {
+    margin-top: 7rem;
+}
+
+.stat-text-wrapper .para3 {
+    margin-top: 7rem;
+}
+
+.stat-text-wrapper {
+    padding-left: 2rem;
+}
+
+.farmerHelpWapper {
+    background: #027696;
+}
+
+.farmer-helpBody {
+    text-align: center;
+}
+
+.farmer-helpBody h1 {
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+}
+
+.farmerHelpBtn {
+    padding: 8px 35px;
+    font-size: 28px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 22px;
+    font-family: Helvetica, sans-serif;
+    transition: all 0.3s linear;
+    font-family: 'Labster';
+}
+
+.farmerHelpBtn:hover {
+    background: #00c4ff;
+    color: #fff;
+
+}
+
+.farmerHelpBtn:focus {
+    border: 2px solid #2bbe65;
+}
+
+.impact-body {
+    padding: 4rem 0rem;
+}
+
+.impact-left h2 {
+    font-size: 35px;
+    font-family: labster, sans-serif;
+    font-weight: bold;
+    color: #000;
+}
+
+.impact-left h4 {
+    font-size: 25px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    color: #000;
+    margin-top: 3rem;
+}
+
+.impact-left p {
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+    /* font-weight: bold; */
+    color: #000000d9;
+    margin-top: 1.3rem;
+    width: 96%;
+    text-align: justify;
+}
+
+.seeMoreBtn {
+    border: none;
+    outline: none;
+    background: #fff;
+}
+
+.viewAllStoreBtn {
+    padding: 10px 12px;
+    font-size: 18px;
+    margin-top: 35px;
+    background: #027696;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    font-family: Helvetica, sans-serif;
+    transition: all 0.3s linear;
+}
+
+.viewAllStoreBtn:hover {
+    background: #00c4ff;
+    color: #fff;
+}
+
+.impact-right {
+    overflow: hidden;
+}
+
+.impact-right img {
+    transition: all 0.3s linear;
+}
+
+.impact-right img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* farmer page css end from here  */
+/* ======================================= */
+
+
+
+/* fundetrs page html start from here  */
+/* ======================================= */
+.fundersBanar img {
+    height: 75vh;
+    padding-top: 4%;
+}
+
+.fundersBanar-info {
+    position: absolute;
+    top: 25vh;
+    width: 59%;
+    text-align: center;
+    margin: 0 auto !important;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.fundersBanar-info h1 {
+    color: #fff;
+    font-size: 40px;
+    font-family: Helvetica, sans-serif;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.fundersBanar-info p {
+    color: #fff;
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    line-height: 28px;
+    margin-top: 10px;
+}
+
+.overlay {
+    height: 75vh;
+    width: 100%;
+    background: #0000007a;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.workWithUsLeft {
+    padding-left: 50%;
+}
+
+.workWithUsRight {
+    padding-left: 22%;
+}
+
+.workWithUsLeft li {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-family: Helvetica, sans-serif;
+}
+
+.workWithUsLeft li img {
+    margin-right: 5px;
+}
+
+.workWithUsHeader h1 {
+    font-size: 38px;
+    font-weight: bold;
+    font-family: labster, sans-serif;
+}
+
+.workWithUsRight li {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-family: Helvetica, sans-serif;
+}
+
+.workWithUsRight li img {
+    margin-right: 5px;
+}
+
+.how-we-work-header h1 {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+}
+
+.how-we-work-header p {
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+    line-height: 30px;
+}
+
+.how-we-work h1 {
+    font-size: 38px;
+    font-weight: bold;
+    font-family: labster, sans-serif;
+}
+
+.how-we-work p {
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+    line-height: 30px;
+}
+
+.how-we-work h4 {
+    font-size: 18px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.howItWork-header h1 {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: labster, sans-serif;
+}
+
+.app-img img {
+    max-height: 575px;
+    max-width: 550px;
+}
+
+.app-img {
+    text-align: center;
+}
+
+.appwork-text h2 {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+
+.appwork-text p {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Helvetica, sans-serif;
+    margin-bottom: 45px !important;
+}
+
+.howItWOrk-body {
+    margin-bottom: 2rem;
+}
+
+.whyWOrkWithUs-header h1 {
+    font-size: 38px;
+    font-weight: bold;
+    font-family: labster, sans-serif;
+}
+
+.whyWOrkWithUs-wrapper {
+    background: #F0FBF4;
+    padding-bottom: 3rem;
+    background: #e2f3fb;
+}
+
+.whyWorkCard {
+    text-align: center;
+    background: #fff;
+    border-radius: 5px;
+    height: 20rem;
+    padding: 2rem 1rem 1.5rem 2rem;
+    box-shadow: 1px 1px 10px #0000004a;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.whyWorkCard:hover {
+    transform: scale(1.1);
+}
+
+.whyWorkCard img {
+    width: 60px;
+}
+
+.whyWorkCard h2 {
+    font-size: 25px;
+    margin: 15px 0px;
+    font-family: 'Labster';
+}
+
+.whyWorkCard p {
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.funderPageContactForm input[type=text] {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #00000040;
+    padding-bottom: 7px;
+    margin-top: 15px;
+    background: transparent;
+}
+
+.funderPageContactForm input[type=text]:focus {
+    border-bottom: 1px solid #000;
+}
+
+.funderPageContactForm input[type=number] {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #00000040;
+    padding-bottom: 7px;
+    margin-top: 15px;
+    background: transparent;
+}
+
+.funderPageContactForm input[type=number]:focus {
+    border-bottom: 1px solid #000;
+}
+
+.funderPageContactForm input[type=email] {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #00000040;
+    padding-bottom: 7px;
+    margin-top: 15px;
+    background: transparent;
+}
+
+.funderPageContactForm input[type=email]:focus {
+    border-bottom: 1px solid #000;
+}
+
+.userMassage {
+    width: 100%;
+    resize: none;
+    border: none;
+    border-bottom: 1px solid #00000040;
+    padding-bottom: 7px;
+    margin-top: 15px;
+}
+
+.fundersPagesubmitBtn {
+    width: 100%;
+}
+
+.funder-page-contactFrom-wrapper {
+    padding-bottom: 5rem;
+}
+
+.funderPageContactForm-wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.fundersPagesubmitBtn {
+    border: none;
+    outline: none;
+    background: #027696;
+    padding: 12px 0px;
+    border-radius: 8px;
+    font-size: 22px;
+    font-family: Helvetica, sans-serif;
+    color: #fff;
+    transition: all 0.3s linear;
+}
+
+.fundersPagesubmitBtn:hover {
+    background: #0ea5cf;
+}
+
+#userMassage:focus {
+    border-bottom: 1px solid #000;
+}
+
+/* fundetrs page html end from here  */
+/* ========================================= */
+
+/* agriInput Page css start from here  */
+/* ====================================== */
+
+.agriInputBannar img {
+    height: 75vh;
+    padding-top: 7%;
+}
+
+.supply-brief p {
+    font-size: 24px;
+    font-size: 22px;
+    font-family: Helvetica, sans-serif;
+}
+
+.feature-card {
+    text-align: center;
+    box-shadow: 1px 1px 10px;
+    padding: 25px 10px 25px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.feature-card:hover {
+    transform: scale(1.1);
+}
+
+.quickFeaturesWrapper {
+    margin: 3rem 0;
+}
+
+.supply-brief {
+    margin-top: 2rem;
+}
+
+.feature-card img {
+
+    width: 60px;
+
+    height: 60px;
+}
+
+.feature-card h2 {
+    margin: 15px;
+    font-family: Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.feature-card p {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #444;
+}
+
+.intelligent-soil-wrapper {
+    padding: 8rem 0rem;
+}
+
+.intelligent-item {
+    display: flex;
+    align-items: flex-start;
+}
+
+.intelligent-itemText {
+    padding-left: 20px;
+}
+
+.intelligent-left h1 {
+    font-family: labster, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.intelligent-itemText h2 {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+}
+
+.intelligent-itemText p {
+    font-size: 16px;
+    color: #767676;
+    font-family: Helvetica, sans-serif;
+}
+
+.intelligent-right {
+    overflow: hidden;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.intelligentImg {
+    transition: all 0.3s linear;
+}
+
+.intelligentImg:hover {
+    transform: scale(1.1);
+}
+
+.agri_input_business_model_header h1,
+.main_business_model_header h1 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: labster, sans-serif;
+}
+
+/* agriInput page css start from  here  */
+/* ========================================== */
+
+
+/* lot&PrecisionFarming section css start from here  */
+/* ================================================= */
+.iot_content p {
+    font-size: 18px;
+    line-height: 35px;
+    font-family: Helvetica, sans-serif;
+    color: #525252;
+    font-weight: bold;
+}
+
+.access-to-iot-imagme {
+    background-image: url(../img/iot&PrecisionFarming/accessToiot/laptop.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    padding: 20rem 0rem;
+    width: 60%;
+    margin: 0 auto;
+    height: 50% !important;
+}
+
+.ipad-img img {
+    position: absolute;
+    left: -22%;
+    top: 30%;
+    width: 16rem;
+    height: 25rem;
+}
+
+.android-img img {
+    position: absolute;
+    top: 0;
+    top: 40.5%;
+    width: 12rem;
+    right: -10%;
+    height: 21rem;
+}
+
+.accessToiot_header h1 {
+    line-height: 40px;
+    font-family: labster, sans-serif;
+    color: #000;
+    /* font-weight: bold; */
+}
+
+.accessToiot_header p {
+    font-size: 19px;
+    line-height: 24px;
+    font-family: Helvetica, sans-serif;
+    color: #000;
+    width: 89%;
+    margin: 0 auto;
+}
+
+.intelligentSoil_header h2 {
+    line-height: 38px;
+    font-family: labster, sans-serif;
+    color: #000;
+    /* font-weight: bold; */
+}
+
+.intelligentSoil_header p {
+    line-height: 24px;
+    font-family: Helvetica, sans-serif;
+    color: #4a4a4a;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.intelligentSoil_infoBox {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.intelligentSoil_infoBoxText {
+    padding-left: 4%;
+}
+
+.intelligentSoil_infoBoxText h2 {
+    font-size: 22px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    color: #686868;
+}
+
+.intelligentSoil_body {
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.intelligentSoil_body img {
+    transition: all 0.3s linear;
+}
+
+.intelligentSoil_body img:hover {
+    transform: scale(1.1);
+}
+
+.cotnact_header h1 {
+    font-size: 40px;
+    font-family: labster, sans-serif;
+    /* font-weight: bold; */
+    color: #000;
+}
+
+.supply-brief p {
+    font-size: 25px;
+    line-height: 45px;
+    width: 84%;
+    margin: 0 auto;
+    color: #2A2A2A;
+    font-family: Helvetica, sans-serif;
+}
+
+.howModelWork_header h1 {
+    font-weight: bold;
+    font-family: labster, sans-serif;
+    font-size: 38px;
+}
+
+.modelWorkLeft {
+    margin-top: 1rem;
+}
+
+.modelWorkBox {
+    text-align: center;
+}
+
+.modelWorkBox {
+    text-align: center;
+}
+
+.modelWorkBox img {
+    background: #F0FBF4;
+    padding: 10px 10px;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+}
+
+.modelWorkBox p {
+    line-height: 26px;
+    font-size: 21px;
+    margin-bottom: 5rem !important;
+    font-family: Helvetica, sans-serif;
+}
+
+.our-clints-header h1 {
+    font-size: 38px;
+    font-weight: bold;
+    font-family: labster, sans-serif;
+}
+
+.clientsImg {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s linear;
+}
+
+.our-clints-body {
+    margin-bottom: 5rem;
+}
+
+.clientsImg:hover {
+    transform: scale(1.1);
+}
+
+.supplyChain-header p {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.languageChangeBtn {
+    margin-left: 15px;
+}
+
+/* lot&PrecisionFarming section css end from here  */
+/* ================================================== */
+
+
+/* sofol page css start from here  */
+/* ======================================= */
+.sofol-page-header-content {
+    position: absolute;
+    top: 37vh;
+}
+
+.sofol-header-right img {
+    width: 70%;
+    top: -80%;
+    position: absolute;
+    right: -60%;
+}
+
+.sofol-header-left {
+    width: 150%;
+}
+
+.sofol-header-left h1 {
+    color: #fff;
+    font-size: 35px;
+    font-family: Helvetica, sans-serif;
+}
+
+.sofol-header-left p {
+    color: #fff;
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    text-align:center !important;
+
+}
+
+.sofol-about-header h1 {
+    color: #000;
+    font-size: 38px;
+    font-family: labster, sans-serif;
+}
+
+.sofol-about-body p {
+    color: #2A2A2A;
+    font-size: 22px;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    line-height: 38px;
+}
+
+.sofol-about-body {
+    margin-bottom: 6rem;
+}
+
+.bridge-header p {
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: Helvetica, sans-serif;
+}
+
+.bridge-flow-container {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.bridge-card1 {
+    width: 60%;
+    text-align: center;
+}
+
+.bridge-card2 {
+    width: 25%;
+}
+
+.bridge-card3 {
+    width: 60% !important;
+    text-align: center;
+}
+
+.bridge-card4 {
+    width: 18%;
+    text-align: center;
+}
+
+.bridge-card5 {
+    width: 55%;
+    text-align: center;
+}
+
+.bridge-card1 h2 {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+}
+
+.bridge-card1 h4 {
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+}
+
+.bridge-card2 img {
+    margin-bottom: 3rem;
+}
+
+.bridge-card3 h2 {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+}
+
+.bridge-card3 h4 {
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+}
+
+.bridge-card4 img {
+    margin-bottom: 3rem;
+}
+
+.bridge-card5 h2 {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+}
+
+.bridge-card5 h4 {
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+}
+
+.bridge-body {
+    margin-bottom: 6rem;
+}
+
+.howToSofolWorksLeft-card {
+    text-align: center;
+}
+
+.howToSofolWorksLeft-card h4 {
+    margin-top: 10px;
+}
+
+.howToSofolWorks-body-right img {
+    margin-top: 5rem;
+}
+
+.howToSofolWorks-wrapper {
+    margin-bottom: 6rem;
+}
+
+.whySofolCard {
+    text-align: center;
+}
+
+.whySofolCard h4 {
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    margin-top: 0.7rem;
+}
+
+.whySofolSection-Wrapper {
+    margin-bottom: 10rem;
+}
+
+/* sofol page css end from here  */
+/* ============================== */
+
+
+/* impact page css start from here  */
+/* ==================================== */
+.impact-section-wrapper {
+    margin-top: 17vh;
+}
+
+.impact-header {
+    text-align: center;
+    padding: 25px;
+}
+
+.impact-header h1 {
+    font-size: 38px;
+    font-family: labster, sans-serif;
+    font-weight: bold;
+}
+
+.impact-card {
+    width: 65%;
+    box-shadow: 1px 1px 10px #00000038;
+    margin: 0 auto;
+    border-radius: 5px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.mainReportPage {
+    margin-top: 13%;
+}
+
+.allReportsCard {
+    width: 80% !important;
+}
+
+.impact-card img {
+    width: 100%;
+}
+
+.impact-card img {
+    width: 100%;
+    height: 15rem;
+}
+
+.impact-card-dosc h2 {
+    font-size: 18px;
+    margin: 10px 0px;
+    color: #000;
+    font-weight: bold;
+    text-transform: capitalize !important;
+}
+
+.impact-card-dosc {
+    padding: 10px;
+}
+
+.date-time {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 60px 0px 20px 0px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #00000042;
+    border-radius: 1px solid #000;
+    padding-top: 5px;
+}
+
+.impact-card img {
+    transition: all 0.3s linear;
+}
+
+.impact-card img:hover {
+    transform: scale(1.1);
+}
+
+.impact_body {
+    margin-bottom: 2rem;
+}
+
+.info span {
+    color: #027696;
+    font-weight: bold;
+}
+
+.date,
+.time {
+    color: #000;
+}
+
+.rightArrow {
+    font-size: 28px;
+    transition: all 0.3s linear;
+
+}
+
+.rightArrow:hover {
+    transform: scale(1.1);
+}
+
+.impact_body {
+    text-align: center;
+}
+
+.viewAllBlogBtn {
+    margin-top: 3rem;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    background: #027696;
+    font-size: 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s linear;
+}
+
+.viewAllBlogBtn:hover {
+    transform: scale(1.1);
+}
+
+.ourReport-header h1 {
+    font-size: 38px;
+    font-weight: bold;
+    color: #000;
+    font-family: labster, sans-serif;
+}
+
+.ourVedio-header h1 {
+    font-size: 38px;
+    font-weight: bold;
+    color: #000;
+    font-family: labster, sans-serif;
+}
+
+.vedio-card {
+    overflow: hidden;
+    width: 20rem;
+    max-width: 0 auto;
+    width: 65%;
+    margin: 0 auto;
+    box-shadow: 1px 1px 10px #00000052;
+    padding: 0px 0px;
+    /* border-radius: 10px; */
+}
+
+.mainVedioPage {
+    margin-top: 13%;
+}
+
+.allVedioCard {
+    width: 80% !important;
+}
+
+.our-report-card {
+    width: 65%;
+    margin: 0 auto;
+    box-shadow: 1px 1px 10px #00000047;
+}
+
+#pdf {
+    width: 100%;
+    height: 10rem !important;
+}
+
+.viewAllReports {
+    text-align: center;
+}
+
+.vedio-card-dosc {
+    padding: 0 10px 10px 10px;
+}
+
+.vedio-card-dosc h2 {
+    font-size: 18px;
+    margin: 10px 0px;
+    color: #000;
+    font-weight: bold;
+    text-transform: capitalize !important;
+}
+
+.allVedioViweBtn {
+    text-align: center;
+}
+
+.storyVedio-Wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#storyVedio {
+    width: 100%;
+    height: 32rem !important;
+}
+
+.impact-stories-header h1 {
+    font-size: 38px;
+    font-weight: bold;
+    color: #000;
+    font-family: labster, sans-serif;
+}
+
+.impact-stories-wrapper {
+    padding-bottom: 6rem;
+    /* background: rgb(21 97 119 / 24%); */
+}
+
+.farmer-img {
+    overflow: hidden;
+}
+
+.farmer-img img {
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.farmer-img img:hover {
+    transform: scale(1.1);
+}
+
+.impact-story-right {
+    padding-left: 1.5rem;
+}
+
+.farmer-info h4 {
+    font-size: 25px;
+    font-weight: 400;
+    font-family: Helvetica, sans-serif;
+    color: #2A2A2A;
+}
+
+.farmer-info p {
+    color: #2A2A2A;
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+    line-height: 30px;
+}
+
+.see-moreBtn {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #027696;
+}
+
+.farmer-img img {
+    width: 100%;
+}
+
+/* impact page css end from here  */
+/* =================================== */
+
+
+/* blog page css start from here  */
+/* =================================== */
+.blog-section-wrapper {
+    margin-top: 17vh;
+}
+
+.blog-card {
+    width: 100% !important;
+}
+
+.blog-header h1 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #000;
+    font-family: Helvetica, sans-serif;
+}
+
+.blog-card {
+    box-shadow: 1px 1px 10px #00000052;
+    transition: all 0.3s linear;
+    margin-bottom: 2.5rem;
+}
+
+.blog-card:hover {
+    transform: scale(1.1);
+}
+
+.allBlogBtn_wrapper {
+    text-align: center;
+}
+
+.allBlogs {
+    padding: 6px 12px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background: #027696;
+    border: #027696;
+    border-radius: 5px;
+    transition: all 0.3s linear;
+
+}
+
+.allBlogs:hover {
+    transform: scale(1.1);
+}
+
+.all-blogs-wrapper {
+    margin-top: 13%;
+    margin-bottom: 8%;
+}
+
+.blog-header {
+    text-align: center;
+}
+
+.blog-header h2 {
+    font-size: 35px;
+    font-family: 'lobstar';
+    font-weight: bold;
+}
+
+/* blog page css end from here  */
+/* =================================== */
+
+
+
+/* career page css start from here  */
+/* ================================ */
+.careerBanar img {
+    padding-top: 4%;
+    height: 60vh;
+}
+
+.career_verlay {
+    height: 60vh;
+    background: #0000009e;
+}
+
+.careerInfo h1 {
+    width: 60%;
+    text-transform: uppercase;
+}
+
+.card-header {
+    padding: 6px 10px;
+}
+
+.card-header img {
+    width: 25%;
+}
+
+.card-body {
+    padding: 1.5rem 1.2rem;
+}
+
+.card-body h2 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #000;
+    font-family: Helvetica, sans-serif;
+}
+
+.job-card {
+    width: 70%;
+    margin: 0 auto;
+    box-shadow: 1px 1px 10px #00000059;
+    border-radius: 5px;
+    height: 16rem;
+}
+
+.card-body h4 {
+    font-size: 14px;
+    color: #000;
+    margin-top: 10px;
+    font-family: Helvetica, sans-serif;
+}
+
+.jobViewBtn {
+    width: 100%;
+    margin-top: 2rem;
+    padding: 7px 0px;
+    border: none;
+    outline: none;
+    background: #027696;
+    color: #fff;
+    font-size: 20px;
+}
+
+.jobViewBtn:hover {
+    background: #0ba8d3;
+}
+
+.jobViewBtn:focus {
+    border: 2px solid #2bbe65;
+}
+
+.job-section-wrapper {
+    background: #f5f5f5;
+}
+
+.job-section-body {
+    padding-bottom: 6rem;
+}
+
+.bridge-header h1 {
+    font-size: 38px;
+    font-family: 'Labster';
+}
+
+.howToSofolWorks-header h1 {
+    font-size: 40px;
+    font-family: 'Labster';
+}
+
+.whySofol-header h1 {
+    font-size: 40px;
+    font-family: 'Labster';
+}
+
+.blog-header h1 {
+    font-family: 'Labster';
+}
+
+.job-section-header h1 {
+    font-size: 38px;
+    font-family: 'labster';
+}
+
+/* career page css end from here  */
+/* ================================ */
+
+
+/* impact story page css start rom here  */
+/* ======================================= */
+.impact_story_title h4 {
+    color: #17a2b8;
+    font-size: 18px;
+    font-family: Helvetica, sans-serif;
+}
+
+.impact_story_title h2 {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+}
+
+.impact_story_title p {
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+    color: #202020;
+    color: #707070;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    line-height: 1.6;
+}
+
+.impactStoryBtn {
+    margin-top: 3%;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    background: #027696;
+    color: #fff;
+    transition: all 0.3s linear;
+}
+
+.impactStoryBtn:hover {
+    background: #054354;
+}
+
+.impactStoryBtn:focus {
+    border: 2px solid #2bbe65;
+}
+
+.story_date {
+    text-align: right;
+}
+
+.impact-stories {
+    margin: 5rem 0rem 5rem 0rem;
+}
+
+.impact-stories_img {
+    overflow: hidden;
+    transition: all 0.5s linear;
+    cursor: pointer;
+}
+
+.impact-stories_img img {
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.impact-stories_img:hover {
+    transform: scale(1.1);
+}
+
+.impact-stories:first-child {
+    margin-top: 0rem !important;
+}
+
+.impact_story_title {
+    text-align: left;
+}
+
+/* impact story page css end rom here  */
+/* ======================================= */
+
+
+
+/* impact blog section css start from here  */
+/* ========================================== */
+.farmer_info {
+    margin-top: 12%;
+}
+
+.famer-info-right h2 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+    color: #2A2A2A;
+}
+
+.famer-info-right p {
+    color: #707070;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.famer-info-left h2 {
+    color: #2A2A2A;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    line-height: 1.6;
+}
+
+.famer-info-left h4 {
+    font-size: 20px;
+    margin-top: 11px;
+    color: #17a2b8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* impact blog page css end from here  */
+/* ====================================== */
+
+/* all blog page css start from here  */
+/* ===================================== */
+.blog-info-wrapper {
+    margin-top: 25vh;
+}
+
+.blog-card-img img {
+    height: 15rem;
+
+}
+
+.blog-date-time {
+    margin-top: 0;
+}
+
+.blog-left img {
+    cursor: pointer;
+}
+
+.blog-left h4 {
+    color: #707070;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    line-height: 1.6;
+    text-decoration: underline;
+}
+
+.blog-date-time .date,
+.blog-date-time .time {
+    color: #707070;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    line-height: 1.6;
+}
+
+.blog-informations h2 {
+    color: #2A2A2A;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.blog-informations p {
+    color: #000;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    line-height: 1.6;
+    transition: all 0.3s linear;
+    margin: 1.5rem 0rem;
+    text-align: justify;
+    transition: all 0.3s linear;
+
+}
+
+.blog-informations p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.otherblog-header img {
+    width: 15rem;
+    height: 9rem;
+}
+
+.otherblog {
+    box-shadow: 1px 1px 10px #00000040;
+    transition: all 0.3s linear;
+}
+
+.card-body.otherblog-body h2 {
+    font-size: 18px;
+}
+
+.other_blogs_wrapper {
+    margin-bottom: 5%;
+}
+
+.otherblog:hover {
+    transform: scale(1.1);
+}
+
+.aboutPageHeroSection {
+    top: 32vh;
+    width: 100%;
+    z-index: 99999 !important;
+}
+
+/* all blog page css end from here  */
+/* ============================-==-==== */
+
+
+
+/* career main page css start from here  */
+/* ========================================= */
+.job-Page-header {
+    margin-top: 22vh;
+}
+
+.jobPageHeader-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.jobPageHeader-top-left {
+    display: flex;
+    align-items: center;
+}
+
+.jobPageHeader-top-left-box1 h1 {
+    font-family: "Helvetica", sans-serif;
+    font-size: 32px;
+    line-height: 56px;
+    letter-spacing: 0.64px;
+    font-weight: bold;
+}
+
+.jobPageHeader-top-left-box2 h4 {
+    font-family: Arial, sans-serif;
+    color: #FFFFFF;
+    font-size: 14px;
+    letter-spacing: 0;
+    padding: 4px 10px;
+    width: 100%;
+    text-align: center;
+    background: #027696;
+    margin-left: 33%;
+    margin-bottom: 25%;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px #000000a6;
+}
+
+.job-details-breadcrumb a {
+    line-height: 0;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #d2c8cb;
+    font-weight: bold;
+}
+
+.job-details-breadcrumb i {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 6px;
+    color: #d2c8cb;
+}
+
+.postName {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+.applyNowBtn {
+    background: #027696;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 15px;
+    box-shadow: 1px 1px 10px #0000006e;
+    /* border-radius: 5px; */
+}
+
+.jobPageHeader {
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.job-page-body {
+    margin-top: 2rem;
+}
+
+.job-page-para p {
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    padding-bottom: 25px;
+}
+
+.job-point h2 {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0;
+    color: #2A2A2A;
+    opacity: 1;
+    padding-bottom: 25px
+}
+
+.job-point-content h4 {
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    padding-bottom: 45px;
+}
+
+.job-point-content ul li {
+    list-style: disc;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    padding-bottom: 25px;
+}
+
+.job-point-content ul {
+    margin-left: 1rem;
+}
+
+/* career main page css end from here  */
+/* ========================================== */
+
+
+/* job application page html start from here  */
+/* ========================================= */
+.job-application-from-wrapper {
+    margin-top: 25vh;
+    margin-bottom: 4%;
+}
+
+.job-info h2 {
+    font-size: 28px;
+    color: #707070;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.job-title {
+    font-weight: bold;
+}
+
+.job-application-from label {
+    color: #707070;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    line-height: 1.6;
+}
+
+.job-application-from input[type=text],
+.job-application-from input[type=email],
+.job-application-from input[type=file],
+.job-application-from input[type=number] {
+    width: 45%;
+    padding: 5px 10px;
+    font-size: 16px;
+    color: #000;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    transition: all 0.2s linear;
+}
+
+.job-application-from input[type=text]:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
+
+.job-application-from input[type=email]:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
+.job-application-from input[type=number]:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
+
+.job-applicationBtn {
+    margin: 1rem 0rem;
+    text-align: right;
+    width: 45%;
+}
+
+.applicationCancleBtn {
+    background: #dc3545;
+    border: none;
+    padding: 5px 12px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.applicationApplyBtn {
+    background: #28a745;
+    border: none;
+    padding: 5px 12px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.applicationApplyBtn:hover {
+    color: #fff;
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.applicationCancleBtn:hover {
+    color: #fff;
+    background-color: #bd2130;
+    border-color: #b21f2d;
+}
+
+/* job application page html end from here  */
+/* ========================================= */
+
+
+/* contact page css start  */
+/* ========================== */
+
+.contact-page-body {
+    box-shadow: 2px 2px 10px #000;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.contact-page-body-wrapper {
+    margin-bottom: 5rem;
+    /* margin-top: 12%; */
+}
+
+.contact-body {
+    align-items: center;
+    background: #e8e8e8;
+    min-height: 200px;
+    min-width: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 2px 9px 3px #a0a0a0;
+}
+
+.contact-body-left {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.contact-social-icon a i {
+    font-size: 20px;
+    margin: 0px 13px;
+    color: #fff;
+    background: rgb(52, 49, 52);
+    padding: 10px 11px;
+    border-radius: 27px;
+}
+
+.contact-social-icon {
+    margin-top: 0%;
+    text-align: center;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4%;
+}
+
+.cotntact-info-left {
+    display: flex;
+    align-items: center;
+}
+
+.contact-info-right {
+    display: flex;
+    align-items: center;
+}
+
+.office-address {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4%;
+}
+
+.cotntact-info-left .icon a {
+    font-size: 20px;
+}
+
+.cotntact-info-left .phone-numbers {
+    margin-left: 10px;
+}
+
+.cotntact-info-left .phone-numbers h4 {
+    font-size: 18px;
+    color: #000;
+}
+
+.contact-info-right .icon {
+    font-size: 20px;
+}
+
+.contact-info-right .eamilAddress {
+    margin-left: 10px;
+}
+
+.contact-info-right .eamilAddress h4 {
+    font-size: 18px;
+    color: #000;
+    font-family: Helvetica, sans-serif;
+}
+
+.head-office {
+    display: flex;
+    align-items: center;
+}
+
+.office-info h2 {
+    font-size: 22px;
+    color: #000;
+    font-family: Helvetica, sans-serif;
+}
+
+.office-info h4 {
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+    color: #000;
+}
+
+.office-info {
+    margin-left: 10px;
+}
+
+.cotntact-info-left .icon i {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.contact-info-right .icon i {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.head-office .icon i {
+    font-size: 35px;
+    margin-right: 10px;
+}
+
+.zonal-office {
+    display: flex;
+    align-items: center;
+}
+
+.zonal-office .icon i {
+    font-size: 35px;
+    margin-right: 10px;
+}
+
+.zonal-office-info {
+    margin-right: 16px;
+}
+
+.contact-body-right {
+    position: relative;
+    background: #0a717f;
+    padding: 35px;
+}
+
+.contact-body-right::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 65px;
+    left: -19px;
+    background: #0a717f;
+    height: 50px;
+    width: 50px;
+    transform: rotate(45deg);
+}
+
+.contact-name,
+.contact-email,
+.contact-massage,
+.contact-btn {
+    display: block;
+    width: 100%;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.contact-name,
+.contact-email {
+    margin-bottom: 1rem;
+}
+
+.contact-massage {
+    margin-bottom: 2rem;
+}
+
+.contact-name::placeholder,
+.contact-email::placeholder,
+.contact-massage::placeholder,
+.contact-btn::placeholder {
+    color: #fff;
+}
+
+.main-contact-massage {
+    height: 13rem;
+}
+
+.contact-header {
+    margin-top: 25vh;
+    margin-bottom: 3rem;
+}
+
+.contact-header-top h2 {
+    font-size: 40px;
+    color: #0a717f;
+    font-family: Helvetica, sans-serif;
+}
+
+.contact-header-top {
+    display: flex;
+    align-items: center;
+}
+
+.contact-header-top i {
+    font-size: 35px;
+    color: #0a717f;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.cotact-header-bottom p {
+    color: #676969;
+    font-size: 16px;
+}
+
+.mainContactBody {
+    background: #e2f3fb;
+}
+
+.ourPartnerBody {
+    text-align: center;
+}
+
+.featured-body {
+    text-align: center;
+}
+
+#fa-paper-plane {
+    font-size: 40px;
+    margin: 15px 0px 0px 46px;
+    border: 2px solid #0a717f;
+    padding: 15px 15px;
+    border-radius: 50%;
+    color: #0a717f;
+}
+#phoneNumber {
+    width: 45%;
+    margin-top: 10px;
+}
+/* contact page css end */
+/* ============================= */
+
+
+/* gallery page css start from here  */
+/* ================================= */
+.gallery-page-header {
+    margin-top: 25vh;
+}
+
+/* gallery page css end from here  */
+/* ============================= */
+
+/* faq section css start from here  */
+/* ============================ */
+.faqSectionWrapper {
+    margin-top: 15vh;
+}
+/* faq section css end from here  */
+/* ============================= */
+
+
+/* privecy page css start from here  */
+/* ============================= */
+section.privcecy-header {
+    margin-top: 15vh;
+}
+.accordion-body ul li{
+    list-style: disc;
+    margin-left: 30px;
+    margin-top: 15px;
+    font-size: 18px;
+    color: #707070;
+}
+.accordion-body {
+    color: #707070;
+}
+/* privecy page css end from here  */
+/* ============================= */
+
+/* risk Management css start from here  */
+/* ============================= */
+.riskManagement-header {
+    margin-top: 15vh;
+}
+.riskManagement-header p{
+    text-align: left;
+    font-size: 18px;
+    color: #707070;
+}
+/* risk Management css end from here  */
+/* ============================= */
+
+/*1230 px  reseponsive css start from here  */
+/* ================================ */
+
+@media (max-width:1230px) {
+    .sofol-header-right img {
+        right: -35%;
+    }
+
+    .sofol-header-right img {
+        width: 58%;
+        top: -57%;
+    }
+
+    .diagram-cell2 {
+        right: -8%;
+        top: 0;
+    }
+
+    .diagram-cell1 {
+        left: -4%;
+    }
+
+    .diagram-cell3 {
+        position: absolute;
+        top: 54%;
+        left: 28%;
+    }
+    .caltureBox {
+        min-height: 95%;
+    }
+    .whatWeOfferCard {
+        min-height: 95%;
+    }
+}
+
+
+
+
+
+
+/*1230 px  reseponsive css end from here  */
+/* ================================ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* max-width (991px) responsive css start from here  */
+/* ================================================*/
+@media(max-width:991px) {
+    .languageChangeBtn {
+        margin-left: 0;
+    }
+
+    .who-we-are-body-card {
+        margin-top: 20px;
+        margin-bottom: 1.5rem;
+    }
+
+    .farers-right {
+        margin-top: 2rem;
+    }
+
+    .quality-input-left {
+        margin-bottom: 2rem;
+    }
+
+    .inproving-right {
+        margin-top: 23rem;
+    }
+
+    .inprovingTopImg1 {
+        top: 46%;
+    }
+
+    .about-us-wrapper {
+        margin-top: 2rem;
+    }
+
+    .inprovingTopImg3 {
+        margin-top: 9rem;
+    }
+
+    .section-header {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .featured-body img {
+        width: 190px;
+    }
+
+    .featured-body {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .homeContactFormHeader h2 {
+        margin-top: 0rem;
+    }
+
+    .playStore {
+        width: 200px;
+    }
+
+    .appStore {
+        width: 200px;
+    }
+
+    .footerTopBox6 {
+        margin-top: 2rem;
+    }
+
+    .footerTopBox1 h4,
+    .footerTopBox2 h4,
+    .footerTopBox3 h4,
+    .footerTopBox4 h4,
+    .footerTopBox5 h4,
+    .footerTopBox6 h4 {
+        margin-bottom: 12px;
+    }
+
+    .ourInvestors-body {
+        margin-bottom: 0rem;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .APJoinUsHeader p {
+        width: 80%;
+    }
+
+    .diagram-cell3 {
+        left: 32%;
+    }
+
+    .diagram-cell2 {
+        right: 10%;
+    }
+
+    .diagram-cell1 {
+        top: 0%;
+        left: 8%;
+    }
+
+    .stat-text-wrapper .para2 {
+        margin-top: 1rem;
+    }
+
+    .stat-text-wrapper .para3 {
+        margin-top: 1rem;
+    }
+
+    .viewAllStoreBtn {
+        margin-top: 10px;
+    }
+
+    .impact-left h2 {
+        text-align: center;
+    }
+
+    .impact-left h4 {
+        margin-top: 0rem;
+    }
+
+    .impact-left {
+        margin-bottom: 2rem;
+    }
+
+    .funderPageContactForm-wrapper {
+        width: 100%;
+    }
+
+    .section-header {
+        padding: 1rem 0rem;
+    }
+
+    .fundersBanar-info h1 {
+        font-size: 32px;
+    }
+
+    .fundersBanar-info p {
+        font-size: 16px;
+    }
+
+    .workWithUsLeft {
+        padding-left: 0%;
+    }
+
+    .workWithUsRight {
+        padding-left: 0%;
+    }
+
+    .whyWorkCard {
+        margin-top: 1.5rem;
+    }
+
+    .feature-card {
+        margin-top: 1.5rem;
+    }
+
+    .intelligent-soil-wrapper {
+        padding: 3rem 0rem;
+    }
+
+    .supply-brief p {
+        font-size: 23px;
+        line-height: 32px;
+        width: 98%;
+    }
+
+    .intelligent-itemText h2 {
+        font-size: 16px;
+    }
+
+    .intelligent-itemText p {
+        font-size: 14px;
+    }
+
+    .intelligent-left h1 {
+        font-size: 28px;
+    }
+
+    .access-to-iot-imagme {
+        padding: 10rem 0rem;
+    }
+
+    .ipad-img img {
+        position: absolute;
+        left: -26%;
+        top: 30%;
+        width: 42%;
+        height: 71%;
+    }
+
+    .android-img img {
+        position: absolute;
+        top: 0;
+        top: 38.5%;
+        width: 27%;
+        right: -9%;
+        height: 61%;
+    }
+
+    .intelligentSoil_header p {
+        font-size: 14px;
+    }
+
+    .intelligentSoil_infoBoxText h2 {
+        font-size: 20px;
+    }
+
+    .fundersBanar-info {
+        position: absolute;
+        top: 28vh;
+    }
+
+    .supply-brief p {
+        font-size: 22px;
+        line-height: 32px;
+        width: 89%;
+    }
+
+    .modelWorkBox p {
+        line-height: 26px;
+        font-size: 18px;
+    }
+
+    .modelWorkRight {
+        text-align: center;
+    }
+
+    .sofol-header-left {
+        width: 50%;
+    }
+
+    .sofol-header-right img {
+        width: 55%;
+        top: -49%;
+        position: absolute;
+        right: -22%;
+    }
+
+    .sofol-header-left h1 {
+        font-size: 25px;
+    }
+
+    .sofol-header-left p {
+        color: #fff;
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .sofol-about-header h1 {
+        font-size: 24px;
+    }
+
+    .sofol-about-body p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .sofol-about-body p {
+        margin-top: 0.8rem !important;
+    }
+
+    .sofol-about-body {
+        margin-bottom: 2rem;
+    }
+
+    .bridge-header p {
+        font-size: 18px;
+    }
+
+    .bridge-header h1 {
+        font-size: 28px;
+    }
+
+    .bridge-body {
+        margin-bottom: 2rem;
+    }
+
+    .bridge-card1 h2 {
+        font-size: 18px;
+    }
+
+    .bridge-card1 h4 {
+        font-size: 14px;
+    }
+
+    .bridge-card3 h2 {
+        font-size: 18px;
+    }
+
+    .bridge-card3 h4 {
+        font-size: 14px;
+    }
+
+    .bridge-card5 h2 {
+        font-size: 18px;
+    }
+
+    .bridge-card5 h4 {
+        font-size: 14px;
+    }
+
+    .howToSofolWorks-header h1 {
+        font-size: 28px;
+    }
+
+    .howToSofolWorksLeft-card h4 {
+        margin-top: 5px;
+    }
+
+    .howToSofolWorksLeft-card h4 {
+        font-size: 22px;
+    }
+
+    .howToSofolWorksLeft-card p {
+        font-size: 14px;
+    }
+
+    .whySofol-header h1 {
+        font-size: 34px;
+    }
+
+    .whySofolSection-Wrapper {
+        margin-bottom: 5rem;
+    }
+
+    .impact-card {
+        width: 95%;
+    }
+
+    .our-report-card {
+        width: 95%;
+    }
+
+    .vedio-card {
+        width: 95%;
+    }
+
+    .farmer-info p {
+        width: 100%;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .viewAllBlogBtn {
+        margin-top: 1rem;
+    }
+
+    .blog-card {
+        margin-bottom: 2rem;
+    }
+
+    .job-card {
+        width: 95%;
+    }
+
+    .homeJoinUsBody {
+        padding: 1rem;
+    }
+
+    #storyVedio {
+        width: 100%;
+        height: 20rem !important;
+    }
+
+    .blog-section-wrapper {
+        margin-top: 17vh;
+    }
+
+    .contact-from-body {
+        flex-direction: column;
+    }
+
+    .contact-from-left {
+        width: 100%;
+    }
+
+    .contact-from-right {
+        width: 100%;
+
+    }
+
+    .contact-from-right {
+        border-top-right-radius: 0px !important;
+        border-bottom-right-radius: 0px !important;
+    }
+
+    .contact-header {
+        margin-top: 20vh;
+    }
+
+    .aboutPageHeroSection p {
+        font-size: 16px;
+        line-height: 25px;
+        width: 100%;
+    }
+
+    .blog-section-wrapper {
+        margin-top: 17vh !important;
+    }
+
+    .otherblog {
+        margin-bottom: 15px;
+    }
+
+    .whatWeOfferHeader p {
+        margin-top: 2rem;
+        font-size: 16px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .ourReport-header {
+        margin-top: 0rem !important;
+    }
+
+    .ourVedio-header {
+        margin-top: 4%;
+    }
+
+    .storyVedio-Wrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .blog-card-img img {
+        height: 15rem;
+        width: 100%;
+    }
+
+    .job-Page-header {
+        margin-top: 22vh;
+    }
+
+    .job-application-from-wrapper {
+        margin-top: 25vh;
+        margin-bottom: 4%;
+    }
+
+    .job-application-from input[type=text],
+    .job-application-from input[type=email],
+    .job-application-from input[type=file] {
+        width: 90%;
+    }
+
+    .job-applicationBtn {
+        width: 90%;
+    }
+
+    .farmer-page-banner-cntent {
+        position: absolute;
+        top: 45vh;
+    }
+
+    .hero-section-title {
+        top: 35vh;
+        width: 100%;
+        padding: 0rem 10%;
+    }
+
+    .hero-section-body {
+        top: 55%;
+    }
+
+    .hero-section-card {
+        background: #00000087;
+        padding: 8px 0px;
+    }
+
+    .hero-section-card h2 {
+        margin-top: 0px;
+        margin-bottom: 0;
+    }
+
+    .farmers-section-wrapper {
+        margin-top: 5rem;
+    }
+
+    .stat-text-wrapper {
+        padding-left: 2rem;
+        margin-top: 3rem;
+    }
+
+    .app-img img {
+        max-height: 100%;
+        max-width: 100%;
+    }
+    
+
+}
+
+/*991 px  reseponsive css start from here  */
+/* ================================ */
+
+
+/* 767 px screen size responsive css start from here  */
+/* ================================================= */
+@media(max-width:767px) {
+    .hero-section-title h1 {
+        font-size: 25px;
+    }
+
+    .hero-section-title {
+        top: 35vh;
+    }
+
+    .hero-section-body {
+        top: 55%;
+    }
+
+    .hero-section-card h2 {
+        font-size: 18px;
+    }
+
+    .hero-section-card img {
+        width: 38px;
+        height: 38px;
+    }
+
+    .hero-section-card h4 {
+        font-size: 14px;
+    }
+
+    .inproving-right h1 {
+        font-size: 42px;
+    }
+
+    .about-us-header h2 {
+        font-size: 35px;
+    }
+
+    .quality-input {
+        margin-top: 3rem;
+    }
+    .feature-card {
+        margin-top: 1.5rem;
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 1.5rem;
+    }
+
+    .farmer-page-banner-cntent h1 {
+        font-size: 32px;
+    }
+
+    .farmer-page-banner-cntent p {
+        font-size: 16px;
+    }
+
+    .fundersBanar-info {
+        top: 25vh;
+    }
+
+    .fundersBanar-info h1 {
+        font-size: 25px;
+    }
+
+    .fundersBanar-info p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .who-we-are-body-card {
+        margin-top: 20px;
+        margin-bottom: 1rem;
+    }
+
+    .HjoinUsBtn {
+        padding: 5px 15px;
+    }
+    .whatWeOfferCard {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .homeContactFormHeader p {
+        width: 90%;
+    }
+
+    .homeContactFromBody {
+        padding: 0 0%;
+    }
+
+    .diagram-cell1 {
+        top: -4%;
+        left: 5%;
+    }
+    .job-Page-header {
+        margin-top: 22vh;
+    }
+
+    .diagram-cell2 {
+        top: -5%;
+        right: 0%;
+    }
+
+    .ipad-img img {
+        height: 55%;
+    }
+
+    .android-img img {
+        height: 45%;
+    }
+
+    .accessToiot_header p {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .sofol-header-right img {
+        right: -10%;
+    }
+
+    .impact-card {
+        margin-bottom: 1.5rem;
+    }
+
+    .ourReport-header {
+        margin-top: 3rem !important;
+    }
+
+    .our-report-card {
+        margin-bottom: 1.5rem;
+    }
+
+    .ourVedio-header {
+        margin-top: 8%;
+    }
+
+    .job-card {
+        margin-bottom: 2rem;
+    }
+
+    .jobPageHeader-top-left-box1 h1 {
+        font-size: 22px;
+    }
+
+    .job-application-from-wrapper {
+        margin-top: 25vh;
+    }
+
+    .contact-header {
+        margin-top: 25vh;
+    }
+
+    .cotntact-info-left .phone-numbers h4 {
+        font-size: 14px;
+        color: #000;
+    }
+
+    .contact-info-right .eamilAddress h4 {
+        font-size: 14px;
+        color: #000;
+        font-family: Helvetica, sans-serif;
+    }
+
+    .office-info h2 {
+        font-size: 18px;
+    }
+
+    .zonal-office-info {
+        margin-right: -15px;
+    }
+
+    .contact-social-icon {
+        margin-top: 5%;
+        text-align: center;
+    }
+
+    .contact-info {
+        margin-top: 8%;
+    }
+
+    .appStore {
+        margin-top: 0%;
+    }
+
+    .sofol-header-right img {
+        display: none;
+    }
+
+    .sofol-header-left {
+        width: 100%;
+    }
+
+    .sofol-header-left h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .blog-section-wrapper {
+        margin-top: 19vh !important;
+    }
+
+    .impact-section-wrapper {
+        margin-top: 17vh;
+    }
+
+    .vedio-card {
+        width: 95%;
+        margin-bottom: 2rem;
+    }
+
+    .impact-story-right {
+        padding-left: 0rem;
+    }
+
+    .farmer-info h4 {
+        margin-top: 1.5rem;
+    }
+
+    .careerInfo h1 {
+        width: 83%;
+    }
+
+    .hero-section-card {
+        background: #00000087;
+        padding: 10px 0px;
+        margin-bottom: 3px;
+        margin-left: 0px;
+    }
+
+    .borderNone {
+        border: none !important;
+    }
+
+    .supplyChain-header p {
+        width: 100%;
+    }
+
+    .sofol-page-header-content {
+        position: absolute;
+        top: 31vh;
+    }
+
+    .farmers-section-wrapper {
+        margin-top: 3rem;
+    }
+
+    .overlay {
+        height: 55vh;
+    }
+
+    .fundersBanar img {
+        height: 55vh;
+        padding-top: 13%;
+    }
+    .diagram-cell3 {
+        left: 30%;
+        top: 45%;
+    }
+
+}
+
+/* 767 px screen size responsive css end from here  */
+/* ================================================= */
+
+
+/* 576 px screen size responsive css start from here  */
+/* ================================================= */
+@media (max-width:575px) {
+    .slider-persion-info p {
+        font-size: 14px;
+        width: 80%;
+    }
+
+    .diagram-cell3 {
+        left: 50% !important;
+        transform: translate(-50%);
+    }
+
+    .farmer-page-banner-cntent h1 {
+        font-size: 24px;
+    }
+
+    .farmer-page-banner-cntent p {
+        font-size: 14px;
+    }
+
+    .fundersBanar-info {
+        top: 23vh;
+    }
+
+    .fundersBanar-info h1 {
+        font-size: 30px;
+    }
+
+    .fundersBanar-info p {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .sofol-header-left p {
+        text-align: left;
+    }
+
+    .impact-story-right {
+        padding-left: 0rem;
+    }
+
+    .farmer-info h4 {
+        margin-top: 1rem;
+    }
+
+    .blog-info-wrapper {
+        margin-top: 25vh;
+    }
+
+    .hero-section-title h1 {
+        font-size: 22px;
+    }
+
+    .hero-section-card img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .hero-section-card h2 {
+        font-size: 18px;
+        margin-bottom: 3px;
+        margin-top: 5px;
+    }
+
+    .hero-section-card {
+        background: #00000087;
+        padding: 8px 0px;
+    }
+
+    .inproving-left {
+        text-align: center;
+        display: none;
+    }
+
+    .inprovingTopImg1 {
+        top: 46%;
+        display: none;
+    }
+
+    .inprovingTopImg3 {
+        width: 100%;
+        margin-left: 0;
+        border-radius: 10px;
+        margin-top: 7rem;
+        cursor: pointer;
+        position: absolute;
+        top: 72%;
+        left: 0;
+    }
+
+    .hero-section-card h4 {
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .hero-section-card {
+        background: #00000087;
+        padding: 1rem 0px;
+        width: 50%;
+    }
+
+    .hero-section-title h1 {
+        font-size: 20px;
+    }
+
+    .hero-section-body {
+        top: 57%;
+        width: 75%;
+    }
+
+    .hero-section-title h1 {
+        font-size: 22px;
+    }
+
+    .farers-right h1 {
+        font-size: 28px;
+    }
+
+    .learnMorBtn {
+        width: 220px;
+        height: 48px;
+    }
+
+    .quality-input-left h1 {
+        font-size: 28px;
+    }
+
+    .inproving-right h1 {
+        font-size: 28px;
+    }
+
+    .about-us-header h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .playStore {
+        width: 150px;
+    }
+
+    .appStore {
+        width: 150px;
+    }
+
+    .farmers-section-wrapper {
+        margin-top: 4rem;
+    }
+
+    .inprovingTopImg2 {
+        width: 100%;
+    }
+
+    .awardsSection h2 {
+        font-family: "Labster", sans-serif;
+        font-size: 30px;
+    }
+
+    .ourPartner-header h2 {
+        font-size: 28px;
+    }
+
+    .homeContactFormHeader h2 {
+        font-size: 35px;
+    }
+
+    .inproving-right {
+        margin-top: 0rem;
+    }
+
+    .aboutPageHeroSection p {
+        font-size: 14px;
+        line-height: 20px;
+        width: 100%;
+    }
+
+    .verlay {
+        height: 50vh;
+    }
+
+    .aboutPageBananrImg img {
+        height: 50vh;
+    }
+
+    .aboutPageHeroSection p {
+        margin-top: 0;
+    }
+
+    .cultureHeader h1 {
+        font-family: Labster, sans-serif;
+        font-size: 30px;
+    }
+
+    .ourInvestors-header h1 {
+        font-size: 30px !important;
+    }
+
+    .APJoinUsHeader h1 {
+        font-size: 30px;
+    }
+
+    .caltureBox:hover {
+        transform: none;
+    }
+
+    .farmerPageBanner img {
+        height: 55vh;
+        padding-top: 4.5rem;
+    }
+
+    .farmer-page-banner-cntent {
+        top: 28vh;
+    }
+
+    .farmer-page-banner-cntent p {
+        width: 72%;
+    }
+
+    .farmer-page-banner-cntent h1 {
+        font-size: 20px;
+    }
+
+    .whatWeOfferHeader h1 {
+        font-size: 30px;
+    }
+
+    .diagram-number h2 {
+        font-size: 30px;
+    }
+
+    .diagram-cell1 {
+        border: 4px solid #027696;
+        width: 200px;
+        height: 200px;
+    }
+
+    .diagram-text p {
+        font-size: 16px;
+    }
+
+    .diagram-cell2 {
+        width: 200px;
+        height: 200px;
+    }
+
+    .diagram-cell3 {
+        width: 200px;
+        height: 200px;
+    }
+
+    .diagram-cell3 {
+        position: absolute;
+        top: 35%;
+    }
+
+    .diagram-cell2 {
+        top: -3%;
+        right: 5%;
+    }
+
+    .farmer-helpBody h1 {
+        color: #fff;
+        font-size: 30px;
+    }
+
+    .impact-left h2 {
+        font-size: 30px;
+    }
+
+    .brand-icon {
+        width: 65px;
+        height: 65px;
+        background: #fff;
+        border-radius: 50%;
+        padding: 8px 6px;
+    }
+
+    .overlay {
+        height: 55vh;
+    }
+
+    .fundersBanar img {
+        height: 55vh;
+        padding-top: 15%;
+    }
+
+    .workWithUsHeader h1 {
+        font-size: 30px;
+    }
+
+    .how-we-work h1 {
+        font-size: 30px;
+    }
+
+    .howItWork-header h1 {
+        font-size: 30px;
+    }
+
+    .appwork-text h2 {
+        font-size: 22px;
+    }
+
+    .appwork-text p {
+        font-size: 14px;
+    }
+
+    .whyWOrkWithUs-header h1 {
+        font-size: 30px;
+    }
+
+    .fundersBanar-info {
+        width: 100%;
+        padding: 0% 5%;
+    }
+
+    .sofol-page-header-content {
+        position: absolute;
+        top: 32vh;
+    }
+
+    .access-to-iot-imagme {
+        width: 70%;
+    }
+
+    .android-img img {
+        position: absolute;
+        top: 0;
+        top: 41.5%;
+        width: 23%;
+        right: -5%;
+        height: 8.5rem;
+    }
+
+    .ipad-img img {
+        position: absolute;
+        left: -20%;
+        top: 35%;
+        width: 35%;
+        height: 10rem;
+    }
+
+    .contact-info {
+        display: flex;
+        align-items: self-start;
+        justify-content: space-between;
+        margin-top: 10%;
+        flex-direction: column;
+    }
+
+    .office-address {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 4%;
+        flex-direction: column;
+        align-items: self-start;
+    }
+
+    .contact-info-right {
+        display: flex;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    .zonal-office {
+        display: flex;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    .slider-persion-info p {
+        font-size: 12px;
+        width: 80%;
+    }
+
+    .APJoinUsHeader p {
+        font-size: 16px;
+    }
+
+    .treamMembersInfo a input[type=button] {
+        padding: 5px 10px;
+    }
+    .sofol-header-left h1 {
+        font-size: 22PX;
+        text-align: left;
+    }
+    .blog-card {
+        width: 80% !important;
+        margin: 0 auto;
+        margin-bottom: 1.5rem;
+    }
+   
+
+}
+
+/* 575 px screen size responsive css end from here  */
+/* ================================================= */
+
+
+/* 470 px screen size responsive css end from here  */
+/* ================================================= */
+@media(max-width:470px) {
+    .improving-section-wrapper {
+        margin-top: 2rem;
+    }
+
+    .caltureBox {
+        min-height: 350px;
+    }
+
+    .caltureBox {
+        padding: 20px 10px 20px 10px;
+    }
+
+    .diagram-cell1 {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .intelligent-item {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        text-align: center;
+    }
+    .sofol-page-header-content {
+        position: absolute;
+        top: 30vh;
+        width: 100%;
+    }
+
+    .diagram-cell2 {
+        left: 50%;
+        transform: translate(-50%);
+        top: 39%;
+    }
+    .feature-card {
+        margin-top: 1.5rem;
+        width: 95%;
+        margin: 0 auto;
+        margin-bottom: 1.5rem;
+    }
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+        margin-bottom: 1.5rem;
+    }
+    .intelligent-left h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+    .diagram-cell3 {
+        position: absolute;
+        top: 83%;
+    }
+
+    .stat-text-wrapper {
+        padding-left: 2rem;
+        margin-top: 40%;
+    }
+
+    .whatWeOfferCard:hover {
+        transform: scale(none);
+    }
+
+    .whatWeOfferCard {
+        padding: 0.5rem 1rem 2rem 1rem;
+    }
+
+    .whatWeOfferCard p {
+        font-size: 16px;
+        margin-top: 0px;
+    }
+
+    .whatWeOfferCard h2 {
+        font-size: 20px;
+        margin-top: 0px;
+    }
+
+    .whatWeOfferCard p {
+        font-size: 14px;
+    }
+
+    .farmer-page-banner-cntent {
+        top: 21vh;
+    }
+
+    .supply-brief p {
+        font-size: 20px;
+        line-height: 24px;
+        width: 100%;
+    }
+
+    .iot_content p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    
+    .intelligentSoil_header h2 {
+        line-height: 25px;
+    }
+
+    .cotnact_header h1 {
+        font-size: 30px;
+    }
+
+    .howModelWork_header h1 {
+        font-size: 30px;
+    }
+
+    .our-clints-header h1 {
+        font-size: 30px;
+    }
+
+    .farers-right p {
+        font-size: 14px;
+    }
+
+    .quality-input-left p {
+        font-size: 14px;
+    }
+
+    .inproving-right p {
+        font-size: 14px;
+    }
+
+    .treamMembersInfo a input[type=button] {
+        font-size: 14px;
+    }
+
+    .stat-text-wrapper p {
+        font-size: 16px;
+        font-family: Helvetica, sans-serif;
+        line-height: 20px;
+    }
+
+    .farmer-helpBody h1 {
+        color: #fff;
+        font-size: 24px;
+    }
+
+    .farmerHelpBtn {
+        padding: 5px 20px;
+        font-size: 22px;
+        border-radius: 5px;
+    }
+
+    .hero-section-body {
+        top: 55%;
+        width: 75%;
+    }
+    .accessToiot_header p {
+        width: 100%;
+        margin: 0 auto;
+        font-size: 16px;
+    }
+    .sofol-header-left h1 {
+        font-size: 20PX;
+        text-align: left;
+    }
+    .sofol-header-left p {
+        text-align: left;
+        font-size: 16px;
+    }
+    .impact-section-wrapper {
+        margin-top: 17vh;
+    }
+    .jobViewBtn {
+        width: 100%;
+        margin-top: 0rem;
+    }
+    .job-Page-header {
+        margin-top: 22vh;
+    }
+    .jobPageHeader-top {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-bottom: 1.54rem;
+    }
+ 
+}
+
+/* 470  px screen size responsive css end from here  */
+/* ================================================= */
+
+/* 400 px screen size responsive css start from here  */
+/* ================================================= */
+@media(max-width:400px) {
+    .ipad-img img {
+        position: absolute;
+        left: -19%;
+        top: 38%;
+        width: 34%;
+        height: 8.5rem;
+    }
+
+    .android-img img {
+        position: absolute;
+        top: 0;
+        top: 43.5%;
+        width: 23%;
+        right: -6%;
+        height: 7rem;
+    }
+
+    .fundersBanar-info {
+        top: 20vh;
+    }
+
+    .blog-section-wrapper {
+        margin-top: 25vh !important;
+    }
+    .whatWeOfferCard {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .contact-header {
+        margin-top: 25vh;
+    }
+
+    .whatWeOfferHeader p {
+        font-size: 14px;
+    }
+
+    .famer-info-right p {
+        color: #707070;
+        font-size: 14px;
+    }
+
+    .blog-informations p {
+        color: #000;
+        font-size: 14px;
+    }
+
+    .impact_story_title p {
+        font-size: 16px;
+    }
+
+    .how-we-work p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .accessToiot_header p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .hero-section-title {
+        top: 35%;
+    }
+
+    .hero-section-body {
+        top: 50%;
+        width: 75%;
+    }
+    .sofol-page-header-content {
+        position: absolute;
+        top: 25vh;
+        left: 0;
+    }
+
+    .fundFarmersBtn {
+        margin-top: 0.5rem;
+        padding: 5px 8px;
+    }
+
+    .farmerPageBanner img {
+        height: 45vh;
+        padding-top: 4.5rem;
+
+    }
+
+    .overlay {
+        height: 50vh;
+    }
+
+    .fundersBanar img {
+        height: 50vh;
+    }
+    .hero-section-title {
+        top: 35%;
+        width: 100%;
+        padding: 0rem 4%;
+    }
+    .blog-card {
+        width: 100% !important;
+        margin: 0 auto;
+        margin-bottom: 1.5rem;
+    }
+    .careerInfo{
+        top: 25%;
+    }
+    .job-Page-header {
+        margin-top: 22vh !important;
+    }
+    .jobPageHeader-top-left {
+        display: flex;
+        align-items: baseline;
+        flex-direction: column;
+    }
+    .jobPageHeader-top-left-box2 h4 {
+        font-family: Arial, sans-serif;
+        color: #FFFFFF;
+        font-size: 14px;
+        letter-spacing: 0;
+        padding: 9px 22px;
+        width: 100%;
+        text-align: center;
+        background: #027696;
+        margin-left: 0%;
+        margin-bottom: 14%;
+        border-radius: 0px;
+        font-weight: bold;
+        cursor: pointer;
+        box-shadow: 1px 1px 10px #000000a6;
+    }
+    .applyNowBtn {
+        background: #027696;
+        border: none;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 6px 7px;
+        box-shadow: 1px 1px 10px #0000006e;
+    }
+  
+
+}
+
+/* 400 px screen size responsive css end from here  */
+/* ================================================= */
+
+/* 310 px screen size responsive css end from here  */
+/* ================================================= */
+@media(max-width:310px) {
+    .caltureBox {
+        padding: 20px 10px 20px 10px;
+    }
+
+    .farmer-helpBody h1 {
+        color: #fff;
+        font-size: 22px;
+    }
+
+    .farmerHelpBtn {
+        font-size: 22px;
+    }
+
+    .ipad-img img {
+        position: absolute;
+        left: -20%;
+        top: 40%;
+        width: 35%;
+        height: 7rem;
+    }
+
+    .android-img img {
+        position: absolute;
+        top: 0;
+        top: 46.5%;
+        width: 23%;
+        right: -5%;
+        height: 5.5rem;
+    }
+
+    .blog-section-wrapper {
+        margin-top: 30vh !important;
+    }
+
+    .brand-icon {
+        width: 50px;
+        height: 50px;
+        background: #fff;
+        border-radius: 50%;
+        padding: 8px 6px;
+    }
+
+    .hero-section-title {
+        top: 15%;
+    }
+
+    .farmerPageBanner img {
+        height: 40vh;
+        padding-top: 3.5rem;
+    }
+
+    .farmer-page-banner-cntent {
+        top: 15vh;
+    }
+
+    .farmer-page-banner-cntent p {
+        width: 72%;
+        line-height: 16px;
+    }
+
+    .fundersBanar-info {
+        top: 19vh;
+    }
+    .appSoter{
+        margin-top: 5px;
+    }
+    .stat-text-wrapper {
+        padding-left: 2rem;
+        margin-top: 50%;
+    }
+    .careerInfoh1 {
+        font-size: 22px;
+    }
+   
+
+}
+
+/* 310  px screen size responsive css end from here  */
+/* ================================================= */
+
+
+
+

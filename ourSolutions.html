@@ -1,0 +1,785 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="keywords" content="htmlcss bootstrap menu, navbar, hover, vanilla js, nav menu CSS examples" />
+<meta name="description" content="Bootstrap 5 navbar hover example with vanilla javascript by bootstrap methods" />  
+<title>Our Solutions</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="./asset/css/style.css">
+
+<script type="text/javascript">
+
+	window.addEventListener("resize", function() {
+		"use strict"; window.location.reload(); 
+	});
+
+
+	document.addEventListener("DOMContentLoaded", function(){
+
+		// make it as accordion for smaller screens
+		if (window.innerWidth > 992) {
+
+			document.querySelectorAll('.navbar .nav-item').forEach(function(everyitem){
+				
+				everyitem.addEventListener('mouseover', function(e){
+
+					let el_link = this.querySelector('a[data-bs-toggle]');
+
+					if(el_link != null){
+						let nextEl = el_link.nextElementSibling;
+						el_link.classList.add('show');
+				 		nextEl.classList.add('show');
+					}
+					
+				});
+				everyitem.addEventListener('mouseleave', function(e){
+				 	let el_link = this.querySelector('a[data-bs-toggle]');
+					
+					if(el_link != null){
+						let nextEl = el_link.nextElementSibling;
+						el_link.classList.remove('show');
+				 		nextEl.classList.remove('show');
+					}
+					
+
+				})
+			});
+
+		}
+		// end if innerWidth
+	}); 
+	// DOMContentLoaded  end
+
+</script>
+
+</head>
+<body>
+<!-- header section html start from here  -->
+<header>
+    <div class="container-fiuld">
+        <nav class="navbar navbar-expand-lg navbar-dark header">
+         <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html">
+                <img class="brand-icon" src="./asset/img/indexPage/shorbojoya-logo.png" alt="image">
+             </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"  aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          <div class="collapse navbar-collapse" id="main_nav">
+            <ul class="navbar-nav">
+                <li class="nav-item active"> <a class="nav-link" href="./aboutUs.html">About Us </a> </li>
+                <li class="nav-item"><a class="nav-link" href="./ourTeam.html">Our Team</a></li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Our Solutions</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="./forFarmers.html"> For Farmers</a></li>
+                      <li><a class="dropdown-item" href="./forFunders.html"> For Funders  </a></li>
+                      <li><a class="dropdown-item" href="./agriInput.html"> Agri-input  </a></li>
+                      <li><a class="dropdown-item" href="./iot&PrecisionFarming.html"> Iot & Precision Farming </a></li>
+                      <li><a class="dropdown-item" href="./supplyChain.html"> Supply Chain  </a></li>
+                    </ul>
+                </li>
+
+				<li class="nav-item"><a class="nav-link" href="./sofol.html"> Sofol </a></li>
+				<li class="nav-item"><a class="nav-link" href="./impact.html"> Impact </a></li>
+				<li class="nav-item"><a class="nav-link" href="./blog.html"> Blog </a></li>
+				<li class="nav-item"><a class="nav-link" href="./career.html"> Career </a></li> 
+				<li class="nav-item"><a class="nav-link" href="./contact.html"> Contact </a></li> 
+            </ul>
+			<div class="languageChangeBtn">
+				<input class="englishBtn" type="submit" value="En">
+				<input class="banglaBtn" type="submit" value="Bn">
+			</div>
+          </div> 
+         </div> 
+        </nav>
+
+        </div> 
+</header>
+<!-- header section html start from here  -->
+
+
+<!-- hero section html start  -->
+<div class="hero-section-wrapper">
+	<section class="hero-section">
+		<div class="bannar-img">
+			<img src="./asset/img/indexPage/hero-bg.jpg" alt="image">
+		</div>
+		<div class="hero-section-title">
+			<h1>
+				DEMOCRATIZING
+				AGRICULTURE
+				FINANCING AND
+				SUPPLY CHAIN
+			</h1>
+		</div>
+		<div class="hero-section-body">
+			<div class="container">
+				<div class="hero-section-cards">
+					<div class="row">
+						<div class="hero-section-card col-3  border-right">
+							<img src="./asset/img/indexPage/hero-section/Finance Facilitated.png" alt="image">
+							<h2>BDT 2.04B</h2>
+							<h4>Finance Facilitated</h4>
+						</div>
+						<div class="hero-section-card col-3 border-right">
+							<img src="./asset/img/indexPage/hero-section/Registered Farmers.png" alt="image">
+							<h2>84000+</h2>
+							<h4>Registered Farmers</h4>
+						</div>
+						<div class="hero-section-card col-3 border-right">
+							<img src="./asset/img/indexPage/hero-section/Registered Retailers.png" alt="image">
+							<h2>10000</h2>
+							<h4>Registered Retailers</h4>
+						</div>
+						<div class="hero-section-card col-3 ">
+							<img src="./asset/img/indexPage/hero-section/Farm Produce.png" alt="image">
+							<h2>186K Ton</h2>
+							<h4>Farm Produce Sold</h4>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+</div>
+<!-- hero section html end -->
+
+
+<!-- main section HTML start from here  -->
+<main>
+        <!-- who we are section html start  -->
+        <div class="who-we-are-wrapper">
+            <section class="who-we-are">
+                <div class="section-header who-we-are-header">
+                    <h1>
+                        Who We Are
+                    </h1>
+                    <p>
+                        iFarmer is a technology company that enables small-scale
+                        farmers and Agri Businesses to maximize their profit.
+                    </p>
+                </div>
+                <div class="who-we-are-body">
+                    <div class="container">
+                        <div class="who-we-are-body-cards">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-6 col-lg-3 ">
+                                    <a href="#">
+                                        <div class="who-we-are-body-card">
+                                            <img class="img-fluid" src="./asset/img/indexPage/who-we-are/img1.jpg"
+                                                alt="image">
+                                            <h4>Farmer</h4>
+                                            <p>
+                                                We bundle everything a farmer needs to maximize profit: financing, farm
+                                                inputs and advisory, insurance, and access to market.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-sm-12 col-md-6 col-lg-3  ">
+                                    <a href="#">
+                                        <div class="who-we-are-body-card">
+                                            <img class="img-fluid" src="./asset/img/indexPage/who-we-are/img2.jpg"
+                                                alt="image">
+                                            <h4>
+                                                Funders
+                                            </h4>
+                                            <p>
+
+                                                We use technology and data to enable institutions and individuals to
+                                                support in creating access to finance for the farmers
+
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-sm-12 col-md-6 col-lg-3 md-mt-3 ">
+                                    <a href="#">
+                                        <div class="who-we-are-body-card">
+                                            <img class="img-fluid" src="./asset/img/indexPage/who-we-are/img3.jpg"
+                                                alt="image">
+                                            <h4>
+                                                Agriculture Companies
+                                            </h4>
+                                            <p>
+
+                                                We work with agricultural input companies and service providers,
+                                                offering quality agriculture input and advisory services to the farmers
+
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-sm-12 col-md-6 col-lg-3 md-mt-3 ">
+                                    <a href="#">
+                                        <div class="who-we-are-body-card">
+                                            <img class="img-fluid" src="./asset/img/indexPage/who-we-are/img4.jpg"
+                                                alt="image">
+                                            <h4>
+                                                Buyers
+                                            </h4>
+                                            <p>
+
+                                                We source directly from the farmers and supply agriculture produce in
+                                                bulk quantity to large enterprises, modern trade retailers and wholesale
+                                                markets.
+
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- who we are section html end -->
+        <!-- farmers section html start from here  -->
+        <div class="farmers-section-wrapper">
+            <section class="farmers-section">
+                <div class="container-fiuld">
+                    <div class="row">
+                        <div class="farers-left col-lg-4">
+                            <img class="img-fluid" src="./asset/img/indexPage/farmer.png" alt="">
+                        </div>
+                        <div class="farers-right col-lg-8">
+                            <h1>Creating Access to Finance for <br> Farmers</h1>
+                            <p>
+                                We enable individuals and institutions to fund the capital requirement of the farmers.
+                                iFarmer bundles finance with agriculture inputs, advisory services, insurance and market
+                                access for the farmers. We use an agriculturally relevant and data-driven model to
+                                assess risk and return to develop funding schemes that fit the needs of smallholder
+                                farmers and the farm funders.
+                            </p>
+                            <a href="#">
+                                <input class="learnMorBtn" type="button" value="Learn More">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- farmers section html end from here  -->
+
+        <!-- Quality Input section html start  -->
+        <div class="quality-input-section-wrapper">
+            <div class="quality-input">
+                <div class="container-fiuld">
+                    <div class="row">
+                        <div class="quality-input-left col-lg-7">
+                            <h1>Creating Access to Quality <br> Input</h1>
+                            <p>
+                                We empower Agri input retailers by offering a one stop solution for all Agri input
+                                supply, offering omni channel presence, doorstep delivery and buy now pay later
+                                solutions. This enables the farmers to get access to quality input from their local Agri
+                                input shops.
+                            </p>
+                            <a href="#">
+                                <input class="learnMorBtn" type="button" value="Learn More">
+                            </a>
+                        </div>
+                        <div class="quality-input-right col-lg-5">
+
+                            <img class="img-fluid" src="./asset/img/indexPage/foods.jpg" alt="">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Quality Input section html end -->
+
+        <!-- Improving section html start  -->
+        <div class="improving-section-wrapper">
+            <div class="inproving-section">
+                <div class="container-fiuld">
+                    <div class="row">
+                        <div class="col-lg-6 inproving-left">
+                            <img class="img-fluid inprovingTopImg1" src="./asset/img/indexPage/inproving/img1.jpg"
+                                alt="">
+                            <img class="img-fluid inprovingTopImg2" src="./asset/img/indexPage/inproving/img2.jpg"
+                                alt="">
+                            <img class="img-fluid inprovingTopImg3" src="./asset/img/indexPage/inproving/img3.jpg"
+                                alt="">
+                        </div>
+                        <div class="col-lg-6 inproving-right">
+                            <h1>Improving Access to <br> Market for the Farmers</h1>
+                            <p>
+                                We use our tech-enabled supply chain network to aggregate fresh produce, directly from
+                                farming communities. Thus offering farmers, quality driven competitive prices factoring
+                                in all associated costs and expenses, simple payment terms and logistics support. We
+                                work with wholesalers, modern trade retailers, exporters and processors to give them
+                                access to quality farm produce at a competitive price without having to deal with
+                                multiple intermediaries.
+                            </p>
+                            <a href="#">
+                                <input class="learnMorBtn" type="button" value="Learn More">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Improving section html end -->
+
+        <!-- About Us section  html start from here  -->
+        <div class="about-us-wrapper">
+            <div class="about-us">
+                <div class="container-fiuld">
+                    <div class="about-us-header section-header">
+                        <h2>
+                            What People Say About Us?
+                        </h2>
+                    </div>
+                    <div class="about-us-body">
+                        <div class="about-us-slider">
+                            <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                               
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active" data-bs-interval="10000">
+                                       <div class="carUsel-container">
+                                          <div class="slider-persion-info">
+                                            <img class="comma-icon" src="./asset/img/indexPage/slider-img/leftquation.png" alt="">
+                                            <p>
+                                                In 2021, I got to know about iFarmer and reached out to them for assistance. I have asked for a Power Tiller in hopes of an increased income to support my family. iFarmer instantly supported me by giving me a Power Tiller. I believe, by using this power tiller, I will be able to develop my agricultural work.
+                                            </p>
+
+                                            <div  class="sliderPersonImg">
+                                                <img src="./asset/img/indexPage/slider-img/MST-FARIDA-BEGUM.jpg" alt="image">
+                                            </div>
+                                            
+                                            <h2>
+                                                Mst Lovli Begum
+                                             </h1>
+                                             <h6>Cattel Fermar</h6>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="10000">
+                                       <div class="carUsel-container">
+                                          <div class="slider-persion-info">
+                                            <img class="comma-icon" src="./asset/img/indexPage/slider-img/leftquation.png" alt="">
+                                            <p>
+                                                In 2021, I got to know about iFarmer and reached out to them for assistance. I have asked for a Power Tiller in hopes of an increased income to support my family. iFarmer instantly supported me by giving me a Power Tiller. I believe, by using this power tiller, I will be able to develop my agricultural work.
+                                            </p>
+
+                                            <div  class="sliderPersonImg">
+                                                <img src="./asset/img/indexPage/slider-img/MST-LOVLI-BEGUM.jpg" alt="image">
+                                            </div>
+                                            
+                                            <h2>
+                                                Mst Lovli Begum
+                                             </h1>
+                                             <h6>Cattel Fermar</h6>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="10000">
+                                       <div class="carUsel-container">
+                                          <div class="slider-persion-info">
+                                            <img class="comma-icon" src="./asset/img/indexPage/slider-img/leftquation.png" alt="">
+                                            <p>
+                                                In 2021, I got to know about iFarmer and reached out to them for assistance. I have asked for a Power Tiller in hopes of an increased income to support my family. iFarmer instantly supported me by giving me a Power Tiller. I believe, by using this power tiller, I will be able to develop my agricultural work.
+                                            </p>
+
+                                            <div  class="sliderPersonImg">
+                                                <img src="./asset/img/indexPage/slider-img/MST-NASIMA-KHATUN.jpg" alt="image">
+                                            </div>
+                                            
+                                            <h2>
+                                                Mst Lovli Begum
+                                             </h1>
+                                             <h6>Cattel Fermar</h6>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="10000">
+                                       <div class="carUsel-container">
+                                          <div class="slider-persion-info">
+                                            <img class="comma-icon" src="./asset/img/indexPage/slider-img/leftquation.png" alt="">
+                                            <p>
+                                                In 2021, I got to know about iFarmer and reached out to them for assistance. I have asked for a Power Tiller in hopes of an increased income to support my family. iFarmer instantly supported me by giving me a Power Tiller. I believe, by using this power tiller, I will be able to develop my agricultural work.
+                                            </p>
+
+                                            <div  class="sliderPersonImg">
+                                                <img src="./asset/img/indexPage/slider-img/MST-OLIMA-BEGUM.jpg" alt="image">
+                                            </div>
+                                            
+                                            <h2>
+                                                Mst Lovli Begum
+                                             </h1>
+                                             <h6>Cattel Fermar</h6>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="10000">
+                                       <div class="carUsel-container">
+                                          <div class="slider-persion-info">
+                                            <img class="comma-icon" src="./asset/img/indexPage/slider-img/leftquation.png" alt="">
+                                            <p>
+                                                In 2021, I got to know about iFarmer and reached out to them for assistance. I have asked for a Power Tiller in hopes of an increased income to support my family. iFarmer instantly supported me by giving me a Power Tiller. I believe, by using this power tiller, I will be able to develop my agricultural work.
+                                            </p>
+
+                                            <div  class="sliderPersonImg">
+                                                <img src="./asset/img/indexPage/slider-img/MST-LOVLI-BEGUM.jpg" alt="image">
+                                            </div>
+                                            
+                                            <h2>
+                                                Mst Lovli Begum
+                                             </h1>
+                                             <h6>Cattel Fermar</h6>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    
+                                </div>
+                                <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About Us section  html end from here  -->
+
+        <!-- Awards & Recognitions section html start from here  -->
+        <div class="awards-section-wrapper">
+            <div class="awards-section">
+                <div class="section-header awardsSection">
+                    <h2>Awards & Recognitions</h2>
+                </div>
+                <div class="awards-section-body">
+                    <div class="container">
+                        <a href="">
+                            <img class="img-fluid" src="./asset/img/indexPage/awards/image.png" alt="image">
+                        </a>
+                        <a href="">
+                            <img class="img-fluid" src="./asset/img/indexPage/awards/UNCDF.png" alt="image">
+                        </a>
+                        <a href="">
+                            <img class="img-fluid" src="./asset/img/indexPage/awards/youthclub.jpg" alt="image">
+                        </a>
+                        <a href="">
+                            <img class="img-fluid" src="./asset/img/indexPage/awards/seed-png.png" alt="image">
+                        </a>
+                        <a href="">
+                            <img class="img-fluid" src="./asset/img/indexPage/awards/1589505142518.jpg" alt="image">
+                        </a>
+                        <a href="">
+                            <img class="img-fluid" src="./asset/img/indexPage/awards/image (2).png" alt="image">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Awards & Recognitions section html end from here  -->
+
+        <!-- Our Partners section html start from here  -->
+            <div class="our-partners-section-wrapper">
+                <div class="our-partners-section">
+                    <div class="container">
+                        <div class="ourPartner-header section-header">
+                            <h2>Our Partners</h2>
+                        </div>
+                        <div class="ourPartnerBody">
+                            <a href="#">
+                                <img src="./asset/img/indexPage/partners/img1.jpg" alt="image">
+                            </a>
+                            <a href="#">
+                                <img src="./asset/img/indexPage/partners/img2.jpg" alt="image">
+                            </a>
+                            <a href="#">
+                                <img src="./asset/img/indexPage/partners/img3.png" alt="image">
+                            </a>
+                            <a href="#">
+                                <img src="./asset/img/indexPage/partners/img4.jpg" alt="image">
+                            </a>
+                            <a href="#">
+                                <img src="./asset/img/indexPage/partners/img5.png" alt="image">
+                            </a>
+                            <a href="#">
+                                <img src="./asset/img/indexPage/partners/img6.jpg" alt="image">
+                            </a>
+                            <a href="#">
+                                <img src="./asset/img/indexPage/partners/img7.png" alt="image">
+                            </a>
+                            <a href="#">
+                                <img src="./asset/img/indexPage/partners/img8.jpg" alt="image">
+                            </a>
+                            <a href="#">
+                                <img src="./asset/img/indexPage/partners/img9.webp" alt="image">
+                            </a>
+                            <a href="#">
+                                <img src="./asset/img/indexPage/partners/img10.png" alt="image">
+                            </a>
+                            <a href="#">
+                                <img src="./asset/img/indexPage/partners/img11.png" alt="image">
+                            </a>
+                            <a href="#">
+                                <img src="./asset/img/indexPage/partners/img12.png" alt="image">
+                            </a>
+                            <a href="#">
+                                <img src="./asset/img/indexPage/partners/img13.png" alt="image">
+                            </a>
+                            <a href="#">
+                                <img src="./asset/img/indexPage/partners/img14.png" alt="image">
+                            </a>
+                            <a href="#">
+                                <img src="./asset/img/indexPage/partners/img15.png" alt="image">
+                            </a>
+                            <a href="#">
+                                <img src="./asset/img/indexPage/partners/img16.jfif" alt="image">
+                            </a>
+                            <a href="#">
+                                <img src="./asset/img/indexPage/partners/img17.png" alt="image">
+                            </a>
+                            <a href="#">
+                                <img src="./asset/img/indexPage/partners/img18.png" alt="image">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- Our Partners section html end from here  -->
+
+        <!-- Featured section html start from here  -->
+            <div class="featured-section-wrapper">
+                <div class="featured-section">
+                    <div class="container">
+                        <div class="freatured-header section-header">
+                            <h2>Featured By</h2>
+                        </div>
+                        <div class="featured-body">
+                            <a href="#">
+                                <img src="./asset/img/indexPage/featured/img1.png" alt="image">
+                            </a>
+                            <a href="#">
+                                <img src="./asset/img/indexPage/featured/img2.png" alt="image">
+                            </a>
+                            <a href="#">
+                                <img src="./asset/img/indexPage/featured/img3.png" alt="image">
+                            </a>
+                            <a href="#">
+                                <img src="./asset/img/indexPage/featured/img4.png" alt="image">
+                            </a>
+                            <a href="#">
+                                <img src="./asset/img/indexPage/featured/img5.png" alt="image">
+                            </a>
+                            <a href="#">
+                                <img src="./asset/img/indexPage/featured/img6.png" alt="image">
+                            </a>
+                            <a href="#">
+                                <img src="./asset/img/indexPage/featured/img7.png" alt="image">
+                            </a>
+                            <a href="#">
+                                <img src="./asset/img/indexPage/featured/img8.png" alt="image">
+                            </a>
+                            <a href="#">
+                                <img src="./asset/img/indexPage/featured/img9.png" alt="image">
+                            </a>
+                            <a href="#">
+                                <img src="./asset/img/indexPage/featured/img10.png" alt="image">
+                            </a>
+                            <a href="#">
+                                <img src="./asset/img/indexPage/featured/img11.png" alt="image">
+                            </a>
+                            <a href="#">
+                                <img src="./asset/img/indexPage/featured/img12.png" alt="image">
+                            </a>
+                            <a href="#">
+                                <img src="./asset/img/indexPage/featured/img2.png" alt="image">
+                            </a>
+                            <a href="#">
+                                <img src="./asset/img/indexPage/featured/img3.png" alt="image">
+                            </a>
+                            <a href="#">
+                                <img src="./asset/img/indexPage/featured/img8.png" alt="image">
+                            </a>
+                            <a href="#">
+                                <img src="./asset/img/indexPage/featured/img9.png" alt="image">
+                            </a>
+                            <a href="#">
+                                <img src="./asset/img/indexPage/featured/img3.png" alt="image">
+                            </a>
+                            <a href="#">
+                                <img src="./asset/img/indexPage/featured/img11.png" alt="image">
+                            </a>
+                    </div>
+                </div>
+            </div>
+        <!-- Featured section html end from here  -->
+            
+        <!-- home join your tream secton html start from here  -->
+        <div class="homeJoinUsSectionWrapper">
+            <div class="homeJoinUs">
+                <div class="container">
+                    <div class="homeJoinUsBody">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="homeJoinUsleft">
+                                    <h2>Career Opportunities</h2>
+                                    <p>
+                                        Be a part of an organisation of brilliant thinkers who work towards
+                                        something new, every day.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="homeJoinUsright">
+                                    <input class="HjoinUsBtn" type="button" value="Join Your Tream">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- home join your tream secton html end from here  -->
+
+        <!-- home contact from html start from here  -->
+        <div class="homeContactFormWraper">
+            <div class="homeContactForm">
+                <div class="container">
+                    <div class="homeContactFormHeader">
+                        <h2 >Be Our Partner</h2>
+                        <p>
+                            Send us a message about any enquiry or business interest and get a call from our team!
+                        </p>
+                    </div>
+                    <div class="homeContactFromBody">
+                        <form class="homeContactForm" action="#">
+                            <input placeholder="Eamil*" type="email" name="userEmail" id="userEmail"> <br>
+                            <input placeholder="Phone*" type="number" name="userNumber" id="userNumber"> <br>
+                            <textarea placeholder="Type Your Massage" name="userMassage" id="userMassage" cols="30" rows="2" ></textarea> <br>
+                            <input class="homeFormSubBtn" type="submit" value="Let us connect to you!">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- home contact from html end from here  -->
+
+        <!-- footer bannaer section html start from here  -->
+        <div class="footer-banner-wrapper">
+            <div class="footer-banner">
+                <div class="container">
+                    <div class="footer-banner-content">
+                        <img class="img-fluid footerImgleft" src="./asset/img/indexPage/footer-top/left-brn.png" alt="image">
+                        <img class="img-fluid footerImgcenter" src="./asset/img/indexPage/footer-top/shorbojoya-bangla-logo.png" alt="image">
+                        <img class="img-fluid footerImgRight" src="./asset/img/indexPage/footer-top/right-bnr.png" alt="image">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer bannar section html end from here  -->
+</main>
+<!-- main section HTML end from here  -->
+
+
+
+<!-- footer section html start from here  -->
+<footer>
+     
+	<div class="footer-wrapper">
+	 <div class="footer">
+		 <div class="container"> 
+			 <div class="main-footer">
+				 <div class="row">
+					 <div class="col-lg-1 col-md-6"><div class="footerTopBox1">
+					   <h4>About</h4>
+						 <ul>
+
+							 <li> <a href="./aboutUs.html">
+								 About Us
+							 </a></li>
+							 <li> <a href="./career.html">
+								 Career
+							 </a></li>
+							 <li> <a href="./gallery.html">
+								 Gallery
+							 </a></li>
+							 <li> <a href="./faq.html">
+								 FAQ
+							 </a></li>
+						 </ul>
+					 </div></div>
+					 <div class="col-lg-2 col-md-6"><div class="footerTopBox2">
+						 <h4>Legal</h4>
+						 <ul>
+							 <li><a href="./privacyPolicy.html">Privacy Policy</a></li>
+							 <li><a href="./termsAndCondetion.html">Terms of Services</a></li>
+							 <li><a href="./riskManagement.html">Risk Management</a></li>
+						 </ul>
+					 </div></div>
+					 <div class="col-lg-4 col-md-6"><div class="footerTopBox3">
+						 <h4>Contact</h4>
+						 <ul>
+							 <li> <b>Email:</b> info@ifarmer.asia</li>
+							 <li> <b>For Call:</b> +8801302536026</li>
+							 <li> <b>For Whatsapp:</b> +8801784167973</li>
+							 <li><b>Bangladesh Address:</b> House - 266, Road - 19, Mohakhali DOSH, Dhaka 1206</li>
+							 <li>
+								 <b>Zonal Office</b>
+								 Watermark Group, Bank Building
+								 Dhaperhat Bondor, Sadullahpur
+								 Gaibandha-5710
+							 </li>
+						 </ul>
+						 <div class="footer-socila-icons">
+							 <a href="#"> <i class="fa-brands fa-twitter"></i></a>
+							 <a href="#"> <i class="fa-brands fa-facebook"></i></a>
+							 <a href="#"> <i class="fa-brands fa-whatsapp"></i></a>
+							 <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+						 </div>
+					 </div></div>
+					 <div class="col-lg-2 col-md-6"><div class="footerTopBox4">
+						 <h4>Our App</h4>
+						 <img  class="img-fluid playStore" src="./asset/img/indexPage/footerImg/playStore.png" alt="image">
+						 <img  class="img-fluid appStore" src="./asset/img/indexPage/footerImg/app-store.png" alt="image">
+					 </div></div>
+					 <div class="col-lg-3 col-md-6"><div class="footerTopBox6">
+						<h4>
+						 Company Information
+						</h4>
+						<h6>
+						 Trade License Number:
+						</h6>
+						<p> 273687</p>
+						<h6>
+						 BIN Number: <br> 
+						</h6>
+						<p>
+						 0017302330402
+						</p>
+				 </div>
+			 </div>
+		 </div>
+	 </div>
+	
+ </div>
+ <div class="footer-bottom">
+	 <p>Copyright © 2019-2023 <a href="http://www.watermarkbd.com/"> Watermark</a>, All Rights Reserved.</p>
+ </div>
+ </footer>
+ <!-- footer section html end from here  -->
+</body>
+</html>

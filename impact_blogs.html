@@ -1,0 +1,332 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="htmlcss bootstrap menu, navbar, hover, vanilla js, nav menu CSS examples" />
+    <meta name="description" content="Bootstrap 5 navbar hover example with vanilla javascript by bootstrap methods" />
+    <title>Blog</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="./asset/css/style.css">
+
+    <script type="text/javascript">
+
+        window.addEventListener("resize", function () {
+            "use strict"; window.location.reload();
+        });
+
+
+        document.addEventListener("DOMContentLoaded", function () {
+
+            // make it as accordion for smaller screens
+            if (window.innerWidth > 992) {
+
+                document.querySelectorAll('.navbar .nav-item').forEach(function (everyitem) {
+
+                    everyitem.addEventListener('mouseover', function (e) {
+
+                        let el_link = this.querySelector('a[data-bs-toggle]');
+
+                        if (el_link != null) {
+                            let nextEl = el_link.nextElementSibling;
+                            el_link.classList.add('show');
+                            nextEl.classList.add('show');
+                        }
+
+                    });
+                    everyitem.addEventListener('mouseleave', function (e) {
+                        let el_link = this.querySelector('a[data-bs-toggle]');
+
+                        if (el_link != null) {
+                            let nextEl = el_link.nextElementSibling;
+                            el_link.classList.remove('show');
+                            nextEl.classList.remove('show');
+                        }
+
+
+                    })
+                });
+
+            }
+            // end if innerWidth
+        });
+	// DOMContentLoaded  end
+
+    </script>
+
+</head>
+
+<body>
+    <!-- header section html start from here  -->
+    <header>
+        <div class="container-fiuld">
+            <nav class="navbar navbar-expand-lg navbar-dark header">
+             <div class="container-fluid">
+                  <a class="navbar-brand" href="./index.html">
+                    <img class="brand-icon" src="./asset/img/indexPage/shorbojoya-logo.png" alt="image">
+                 </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"  aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              <div class="collapse navbar-collapse" id="main_nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active"> <a class="nav-link" href="./aboutUs.html">About Us </a> </li>
+                    <li class="nav-item"><a class="nav-link" href="./ourTeam.html">Our Team</a></li>
+    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Our Solutions</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="./forFarmers.html"> For Farmers</a></li>
+                          <li><a class="dropdown-item" href="./forFunders.html"> For Funders  </a></li>
+                          <li><a class="dropdown-item" href="./agriInput.html"> Agri-input  </a></li>
+                          <li><a class="dropdown-item" href="./iot&PrecisionFarming.html"> Iot & Precision Farming </a></li>
+                          <li><a class="dropdown-item" href="./supplyChain.html"> Supply Chain  </a></li>
+                        </ul>
+                    </li>
+    
+                    <li class="nav-item"><a class="nav-link" href="./sofol.html"> Sofol </a></li>
+                    <li class="nav-item"><a class="nav-link" href="./impact.html"> Impact </a></li>
+                    <li class="nav-item"><a class="nav-link" href="./blog.html"> Blog </a></li>
+                    <li class="nav-item"><a class="nav-link" href="./career.html"> Career </a></li> 
+                    <li class="nav-item"><a class="nav-link" href="./contact.html"> Contact </a></li> 
+                </ul>
+                <div class="languageChangeBtn">
+                    <input class="englishBtn" type="submit" value="En">
+                    <input class="banglaBtn" type="submit" value="Bn">
+                </div>
+              </div> 
+             </div> 
+            </nav>
+    
+            </div> 
+    </header>
+    <!-- header section html start from here  -->
+
+    <!-- main section HTML start from here  -->
+    <main>
+        <!-- blog seciton html start from here  -->
+        <div class="blog-section-wrapper">
+            <div class="container">
+                <div class="blog-header section-header">
+                    <div class="impact-stories">
+                        <div class="row">
+                            <div class="col-lg-8 col-md-6 col-sm-12">
+                               <div class="impact_story_title">
+                                <h4>Farmer Story #11</h4>
+                                <h2>MST ANJUMA BEGUM</h2>
+                                <p>
+                                    Taslima Akhter from Lalmonirhat is one of many proud farmers of Bangladesh. She is the representation of those women farmers who works hard everyday trying to provide for their families. Many farmers like Taslima have received assistance in their farming endeavors from shorbojoya. Let's hear from Taslima Akhter and her journey with shorbojoya! To know more: https://youtu.be/In3ZWPto4q0
+                                </p>
+                              <a href="./impact_blog.html">
+                                <input class="impactStoryBtn" type="button" value="Read More">
+                              </a>
+                              <div class="story_date">
+                                <p>by Team shorbojoya, 2022-03-31</p>
+                              </div>
+                               </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <div class="impact-stories_img">
+                                    <img class="img-fluid" src="./asset/img/impact_stories/MST-ANJUMA-BEGUM.jpg" alt="image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="impact-stories">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <div class="impact-stories_img">
+                                    <img class="img-fluid" src="./asset/img/impact_stories/MST-OLIMA-BEGUM.jpg" alt="image">
+                                </div>
+                            </div>
+                            <div class="col-lg-8 col-md-6 col-sm-12">
+                               <div class="impact_story_title">
+                                <h4>Farmer Story #12</h4>
+                                <h2>Olima Begum</h2>
+                                <p>
+                                    Taslima Akhter from Lalmonirhat is one of many proud farmers of Bangladesh. She is the representation of those women farmers who works hard everyday trying to provide for their families. Many farmers like Taslima have received assistance in their farming endeavors from shorbojoya. Let's hear from Taslima Akhter and her journey with shorbojoya! To know more: https://youtu.be/In3ZWPto4q0
+                                </p>
+                                <a href="./impact_blog.html">
+                                    <input class="impactStoryBtn" type="button" value="Read More">
+                                  </a>
+                              <div class="story_date">
+                                <p>by Team shorbojoya, 2022-03-31</p>
+                              </div>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="impact-stories">
+                        <div class="row">
+                            <div class="col-lg-8 col-md-6 col-sm-12">
+                               <div class="impact_story_title">
+                                <h4>Farmer Story #13</h4>
+                                <h2>Gita Rani</h2>
+                                <p>
+                                    Taslima Akhter from Lalmonirhat is one of many proud farmers of Bangladesh. She is the representation of those women farmers who works hard everyday trying to provide for their families. Many farmers like Taslima have received assistance in their farming endeavors from shorbojoya. Let's hear from Taslima Akhter and her journey with shorbojoya! To know more: https://youtu.be/In3ZWPto4q0
+                                </p>
+                                <a href="./impact_blog.html">
+                                    <input class="impactStoryBtn" type="button" value="Read More">
+                                  </a>
+                              <div class="story_date">
+                                <p>by Team shorbojoya, 2022-03-31</p>
+                              </div>
+                               </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <div class="impact-stories_img">
+                                    <img class="img-fluid" src="./asset/img/impact_stories/GITA-RANI.jpg" alt="image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="impact-stories">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <div class="impact-stories_img">
+                                    <img class="img-fluid" src="./asset/img/impact_stories/MST-FARIDA-BEGUM.jpg" alt="image">
+                                </div>
+                            </div>
+                            <div class="col-lg-8 col-md-6 col-sm-12">
+                               <div class="impact_story_title">
+                                <h4>Farmer Story #14</h4>
+                                <h2>Forida Begum</h2>
+                                <p>
+                                    Taslima Akhter from Lalmonirhat is one of many proud farmers of Bangladesh. She is the representation of those women farmers who works hard everyday trying to provide for their families. Many farmers like Taslima have received assistance in their farming endeavors from shorbojoya. Let's hear from Taslima Akhter and her journey with shorbojoya! To know more: https://youtu.be/In3ZWPto4q0
+                                </p>
+                                <a href="./impact_blog.html">
+                                    <input class="impactStoryBtn" type="button" value="Read More">
+                                  </a>
+                              <div class="story_date">
+                                <p>by Team shorbojoya, 2022-03-31</p>
+                              </div>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+          
+            </div>
+        </div>
+        <!-- blog seciton html emd from here  -->
+     
+
+        
+          <!-- footer bannaer section html start from here  -->
+          <div class="footer-banner-wrapper">
+            <div class="footer-banner">
+                <div class="container">
+                    <div class="footer-banner-content">
+                        <img class="img-fluid footerImgleft" src="./asset/img/indexPage/footer-top/left-brn.png" alt="image">
+                        <img class="img-fluid footerImgcenter" src="./asset/img/indexPage/footer-top/shorbojoya-bangla-logo.png" alt="image">
+                        <img class="img-fluid footerImgRight" src="./asset/img/indexPage/footer-top/right-bnr.png" alt="image">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer bannar section html end from here  -->
+    </main>
+    <!-- main section HTML end from here  -->
+
+
+
+    <!-- footer section html start from here  -->
+    <footer>
+     
+        <div class="footer-wrapper">
+         <div class="footer">
+             <div class="container"> 
+                 <div class="main-footer">
+                     <div class="row">
+                         <div class="col-lg-1 col-md-6"><div class="footerTopBox1">
+                           <h4>About</h4>
+                             <ul>
+    
+                                 <li> <a href="./aboutUs.html">
+                                     About Us
+                                 </a></li>
+                                 <li> <a href="./career.html">
+                                     Career
+                                 </a></li>
+                                 <li> <a href="./gallery.html">
+                                     Gallery
+                                 </a></li>
+                                 <li> <a href="./faq.html">
+                                     FAQ
+                                 </a></li>
+                             </ul>
+                         </div></div>
+                         <div class="col-lg-2 col-md-6"><div class="footerTopBox2">
+                             <h4>Legal</h4>
+                             <ul>
+                                 <li><a href="./privacyPolicy.html">Privacy Policy</a></li>
+                                 <li><a href="./termsAndCondetion.html">Terms of Services</a></li>
+                                 <li><a href="./riskManagement.html">Risk Management</a></li>
+                             </ul>
+                         </div></div>
+                         <div class="col-lg-4 col-md-6"><div class="footerTopBox3">
+                             <h4>Contact</h4>
+                             <ul>
+                                 <li> <b>Email:</b> info@ifarmer.asia</li>
+                                 <li> <b>For Call:</b> +8801302536026</li>
+                                 <li> <b>For Whatsapp:</b> +8801784167973</li>
+                                 <li><b>Bangladesh Address:</b> House - 266, Road - 19, Mohakhali DOSH, Dhaka 1206</li>
+                                 <li>
+                                     <b>Zonal Office</b>
+                                     Watermark Group, Bank Building
+                                     Dhaperhat Bondor, Sadullahpur
+                                     Gaibandha-5710
+                                 </li>
+                             </ul>
+                             <div class="footer-socila-icons">
+                                 <a href="#"> <i class="fa-brands fa-twitter"></i></a>
+                                 <a href="#"> <i class="fa-brands fa-facebook"></i></a>
+                                 <a href="#"> <i class="fa-brands fa-whatsapp"></i></a>
+                                 <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                             </div>
+                         </div></div>
+                         <div class="col-lg-2 col-md-6"><div class="footerTopBox4">
+                             <h4>Our App</h4>
+                             <img  class="img-fluid playStore" src="./asset/img/indexPage/footerImg/playStore.png" alt="image">
+                             <img  class="img-fluid appStore" src="./asset/img/indexPage/footerImg/app-store.png" alt="image">
+                         </div></div>
+                         <div class="col-lg-3 col-md-6"><div class="footerTopBox6">
+                            <h4>
+                             Company Information
+                            </h4>
+                            <h6>
+                             Trade License Number:
+                            </h6>
+                            <p> 273687</p>
+                            <h6>
+                             BIN Number: <br> 
+                            </h6>
+                            <p>
+                             0017302330402
+                            </p>
+                     </div>
+                 </div>
+             </div>
+         </div>
+        
+     </div>
+     <div class="footer-bottom">
+         <p>Copyright © 2019-2023 <a href="http://www.watermarkbd.com/"> Watermark</a>, All Rights Reserved.</p>
+     </div>
+     </footer>
+    <!-- footer section html end from here  -->
+</body>
+
+</html>
